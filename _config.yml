@@ -38,10 +38,9 @@ links:
   - title: Blog
     url: /articles/
   - title: White Paper
-    url: /theme-setup/
+    url: /white-paper/
   - title: Hobby
-    url: http://mademistakes.com
-    external: true
+    url: /hobby/
 
 future:      true
 highlighter: pygments

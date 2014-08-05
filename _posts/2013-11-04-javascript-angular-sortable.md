@@ -6,7 +6,7 @@ category: articles
 tags: [javascript, angular.js]
 image:
   feature: so-simple-sample-image-2.jpg
-  credit: Renien
+  credit: Renien Joseph
   creditlink: 
 comments: true
 share: true
