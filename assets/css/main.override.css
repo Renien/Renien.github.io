@@ -1,3 +1,7 @@
 .entry-title {
-max-width: 100%;
+	max-width: 100%;
+}
+
+p {
+	text-align: justify;
 }
