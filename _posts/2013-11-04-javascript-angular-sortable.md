@@ -16,7 +16,7 @@ I have been trying to figure out solution to work smoothly with angular.js and J
 
 But ng:repeat (angular.js) works only one way (top-bottom). So if we change model using JQuery UI – sortable the model will change only in one way (top-bottom) and if we sort from bottom-top our dom component it will get sorted in UI side but the binded values won’t change.
 
-Angular.js chat room provided a solution that to perform this action we need to write our own UI sortable component using angular.js.But found a work around solution for this and it works perfectly. So it will help us to use JQuery UI Sortable component with Angular.js binding.
+Angular.js chat room provided a solution to perform this action we need to write our own UI sortable component using angular.js.But found a work around solution for this and it works perfectly. So it will help us to use JQuery UI Sortable component with Angular.js binding.
 
 Bind the data and bind the scope function with JQuery UI:-
 

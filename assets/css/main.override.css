@@ -5,3 +5,14 @@
 p {
 	text-align: justify;
 }
+
+.publication-header-conference{
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 16px;
+	color: #434649;
+}
+
+.publication-header-border{
+	border-bottom: 3px solid #aaa;
+}
