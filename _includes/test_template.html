@@ -3,3 +3,65 @@
 </div>
 
 <link rel="stylesheet" href="{{ site.url }}/assets/css/content.extend.css">
+
+<link rel="stylesheet" href="{{ site.url }}/assets/grid-layout/babylongrid-default.css">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="{{ site.url }}/assets/grid-layout/jquery.babylongrid.min.js"></script>
+
+<div id="babylongrid">
+ 
+<article>
+<div class="h3 title"> Title 1 </div>
+<div class="desc"> Description 1 </div>
+</article>
+ 
+<article>
+<div class="h3 title"> Title 2 </div>
+<div class="desc"> Description 2 </div>
+</article>
+ 
+<article>
+<div class="h3 title"> Title 3 </div>
+<div class="desc"> Description 3 </div>
+</article>
+
+<article>
+<div class="h3 title"> Title 3 </div>
+<div class="desc"> Description 3 </div>
+</article>
+ 
+</div>
+
+<script>
+(function($){
+$('#babylongrid').babylongrid();
+}(jQuery));
+</script>
+
+<script>
+(function($){
+$('#babylongrid').babylongrid({
+scheme: [ // custom grid scheme
+{
+minWidth: 960,
+columns: 4
+},
+{
+minWidth: 720,
+columns: 3
+},
+{
+minWidth: 550,
+columns: 2
+},
+{
+minWidth: 0,
+columns: 1
+}
+],
+display: null, // 'tower' or 'city'. Set vertical align to bottom or center
+firstToRight: false, // Move first article to last column
+heightDivisor: 25, // Article height divisor. For disable set 1
+});
+}(jQuery));
+</script>
