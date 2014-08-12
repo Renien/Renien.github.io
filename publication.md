@@ -5,6 +5,10 @@ title: publication
 description: "Research based white papers"
 modified: 2013-09-11
 tags: []
+image:
+  feature: cover/publication-page.jpg
+  credit: 
+  creditlink: 
 ---
 
 [**DREAM – IT – 3D RECONSTRUCTION AND BUILDING INFORMATION MODELLING ->**](http://www.ijeset.com/volume-6-issue-2.html){:target="_blank"} 
