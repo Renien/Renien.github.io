@@ -10,25 +10,25 @@ tags: []
 [**DREAM – IT – 3D RECONSTRUCTION AND BUILDING INFORMATION MODELLING ->**](http://www.ijeset.com/volume-6-issue-2.html){:target="_blank"} 
 
 <div class="publication-header-conference">International Journal of Engineering Sciences & Emerging Technologies</div>
-
 <div>October 1, 2013</div>
-
 <div class="publication-header"></div>
-
-<h3 class="read-more-toggle">Read More</h3>
 <div class="read-more-content">
+<p>
 Throughout the architecture engineering and construction lifecycle, 3D building models are extremely helpful. Such models coupled with virtual walk through can enable customers to decide and be satisfied with their dream building. Manually creating a polygonal 3D model of a set of floor plans is nontrivial and requires skill and time. Additionally, applying concise design principles makes a holistic design in order to create comfortable and cosy living environments. This project introduces and reviews a mechanism for applying design constructs after the conversion of 2D drawings into 3D Building Information Model. This research utilizes and demonstrates an automated 3D model reconstruction of real world object from an un-calibrated image sequence targeting the 
 same scene obtained using a common camera; which can be used for interior and exterior design. There are many key techniques in 3D reconstruction from un-calibrated image sequences, including feature matching, fundamental matrix estimation, projective reconstruction, camera self-calibration and Euclidean reconstruction. The effectiveness of the algorithms was evaluated in the experiments with many real image sequences.
+</P>
 </div>
+<div markdown="0" class="read-more-toggle" align="right"><a class="btn">Read More</a></div>
+
+
 
 [**Build-IT - An Interactive Web Application for 3D Construction, Interior & Exterior Design ->**](http://isms2014.info/){:target="_blank"} 
 
 <div class="publication-header-conference">Fifth International conference on Intelligent Systems, Modelling and Simulation (http://isms2014.info/) [IEEE]</div>
-
 <div>Pending</div>
-
 <div class="publication-header"></div>
-
+<div class="read-more-content">
+<p>
 <figure class="third">
 	{% for item in (1..11) %}
 	<a href="{{ site.url }}/images/publication/{{ item }}.jpg"><img src="{{ site.url }}/images/publication/{{ item }}.jpg" alt="image"></a>
@@ -39,11 +39,18 @@ Intelligent Systems, Modelling and Simulation <a href="http://isms2014.info/" ta
 Langkawi, Malaysia, 27 – 29 January 2014
 Sheraton Hotel, Langkawi, Malaysia</figcaption>
 </figure>
+</P>
+</div>
+<div markdown="0" class="read-more-toggle" align="right"><a class="btn">Read More</a></div>
 
-<h3 class="read-more-toggle">Read More</h3>
+
 
 <style type="text/css">
-	
+.read-more-toggle .btn{
+	padding: 3px;
+	font-size: 12px;
+}
+
 .hide {
   display: none;
 }
@@ -56,6 +63,14 @@ $('.read-more-content').addClass('hide');
 
 // Set up the toggle.
 $('.read-more-toggle').on('click', function() {
-  $(this).next('.read-more-content').toggleClass('hide');
+	if(!$(this).prev('.read-more-content').is(":visible")){
+		$('.read-more-content').addClass('hide');
+	}
+   
+   $(this).prev('.read-more-content').toggleClass('hide');
+
+   $('html, body').animate({
+    	scrollTop: $(this).prev('.read-more-content').offset().top
+	}, 2000);
 });
 </script>
