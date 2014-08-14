@@ -8,7 +8,7 @@
 }
 
 .grid_tile {
-  background: #fff;
+  /*background: #fff;*/
   -webkit-border-radius: 2px 2px;
   -moz-border-radius: 2px / 2px;
   border-radius: 2px / 2px;
@@ -19,6 +19,7 @@
   overflow: hidden;
 }
 
+
 .grid_tile:hover {
   -webkit-transform: translateY(-5px);
   -ms-transform: translateY(-5px);
@@ -26,11 +27,11 @@
   -moz-box-shadow: 0 0 10px #ccc; 
   -webkit-box-shadow: 0 0 10px #ccc; 
   box-shadow: 0 0 10px #ccc; 
-  background: #f6f6f6;
+ /* background: #f6f6f6;*/
 }
 
 .grid_tile .title {
-	background: #99301c;
+	background: #000000;
 	color: white;
 	text-align: center;
 	/*padding: 15px 20px;*/
@@ -38,7 +39,12 @@
 	margin-bottom: 10px;
 	font-weight: 300;
 	font-style: italic;
-	border-bottom: 5px solid #832918;
+	border-bottom: 5px solid #000000;
+  color: white;
+}
+.grid_tile .title .sub-title{
+  font-size: small;
+  font-style: normal;
 }
 
 .grid_tile .title img{

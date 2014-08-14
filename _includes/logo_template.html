@@ -1,0 +1,294 @@
+<div id="myCanvas"></div>
+
+<!--<link rel="stylesheet" type="text/css" href="mystyle.css">-->
+<script src="{{ site.url }}/assets/kinetic/kinetic-v5.1.0.min.js"></script>
+
+<style>
+    #myCanvas {
+        margin: 50px auto 0 auto;
+        width: 200px;
+        height: 200px;
+    }
+</style>
+<script type="application/javascript">
+window.onload = function () {
+
+    // Wave functions
+
+    var w = 205;
+    var h = 100;
+
+    var osc1 = new Osc(20),
+            osc2 = new Osc(10, 1.3),
+            osc3 = new Osc(6, 1.43),
+            horizon = h * 0.5;
+    count = 40,
+            step = Math.ceil(w / count),
+            buffer = new ArrayBuffer(count * 4),
+            points = new Float32Array(buffer);
+
+    function Osc(max, frequency, variation) {
+        this.max = max || 30;
+        this.frequency = frequency || 0.6;
+        //this.variation = variation ||  0.1;
+        return this;
+    }
+
+    Osc.prototype.value = function (t) {
+        var max = this.max * (1 + 0.1);
+        return max * Math.sin(this.frequency * Date.now() * 2 * Math.PI * 1e-3);
+    }
+
+    Osc.prototype.valueOf = function () {
+        return this.value(Date.now());
+    }
+
+    function fill() {
+        var n = Date.now() - count * 15;
+        for (var i = 0; i < count; i++) {
+            points[i] = horizon + (osc1.value(n + 15 * i) + osc2.value(n + 15 * i) + osc3.value(n + 15 * i)) / 3;
+        }
+    }
+
+    fill();
+
+
+    /*	        function mixer() {
+     var d = arguments.length,
+     i = d,
+     sum = 0;
+     if (d < 1) return 0;
+     while (i--) sum += arguments[i].getAmp();
+     return sum / d + horizon;
+     }
+     */
+
+    // End wave functions
+
+    // Particles functions
+
+    var inWave = [];
+    var particlesInWave = 15;
+    var cw = 200;
+    var ch = 250;
+
+    function createParticlesInWave() {
+        for (var i = 0; i < particlesInWave; i++)
+            inWave.push(new inParticle());
+    }
+
+    function updateParticlesInWave() {
+        var thisPart = null, i=0;
+        while (thisPart=inWave[i++]) {
+            var x = thisPart.x -= thisPart.vx,
+                    y = thisPart.y += thisPart.vy;
+
+            if (y < 50 + points[0 | (x / step)]) thisPart.y = ch;
+
+            if (x > cw) thisPart.x = 0;
+            else if (x < 0) thisPart.x = cw;
+            if (y < 0) thisPart.y = ch;
+
+            if (thisPart.oSwitch) {
+                thisPart.opacity += 0.01;
+                if (thisPart.opacity >= 1) thisPart.oSwitch = false;
+            } else {
+                thisPart.opacity -= 0.01;
+                if (thisPart.opacity <= 0) thisPart.oSwitch = true;
+            }
+        }
+    }
+
+    var inParticle = function () {
+        this.x = Math.random() * cw;
+        this.y = Math.random() * ch;
+        this.radius = Math.random() * 2;
+        this.vx = -2 + Math.random() * 4;
+        this.vy = -4 + Math.random() * 2;
+        this.opacity = Math.random();
+        this.oSwitch = true;
+    };
+
+    // End particles functions
+
+    var stage = new Kinetic.Stage({
+        container: "myCanvas",
+        width: 200,
+        height: 200
+    });
+
+    var layer = new Kinetic.Layer();
+    var ctx = layer.getContext();
+
+    stage.add(layer);
+
+    var bubbles = new Kinetic.Shape({
+        drawFunc: function (context) {
+            var tp = null;
+            context.fillStyle = '#FFF';
+            for (var i = 0; i < inWave.length - 1; i++) {
+
+                tp = inWave[i];
+                if (tp.y > 0 ) {
+                    context.beginPath();
+                    context.globalAlpha = 0.6; // inWave[i].opacity / 4;
+                    this.opacity = 0.1;
+                    context.arc(tp.x, tp.y, tp.radius, 0, Math.PI * 2, false);
+                    context.fillStrokeShape(this);
+
+                }
+            }
+            context.globalAlpha = 1;
+        },
+        fill: '#fff'
+    });
+
+    var circle = new Kinetic.Circle({
+        radius: 97,
+        stroke: "#000000",
+        fill: "#fff",
+        strokeWidth: 3,
+        x: 100,
+        y: 100
+    });
+
+    var wave = new Kinetic.Shape({
+        drawFunc: function (context) {
+            context.clip();
+            context.beginPath();
+            context.moveTo(0, points[0]);
+            for (i = 1; i < count; i++) {
+                context.lineTo(i * step, points[i]);
+            }
+            context.lineTo(w, 2 * h);
+            context.lineTo(0, 2 * h);
+            context.closePath();
+            context.fillStrokeShape(this);
+            context.restore();
+        },
+        fill: "#000000",
+        y: 50
+    });
+
+    var wave2 = new Kinetic.Shape({
+        drawFunc: function (context) {
+            context.clip();
+            context.beginPath();
+            context.moveTo(0, points[0]);
+            for (i = 1; i < count; i++) {
+                context.lineTo(i * step, points[i]);
+            }
+            context.lineTo(w, 2 * h);
+            context.lineTo(0, 2 * h);
+            context.closePath();
+            context.fillStrokeShape(this);
+            context.restore();
+        },
+        fill: "#000000",
+        y: 50
+    });
+
+    var iconCo = new Kinetic.Shape({
+        drawFunc: function (context) {
+            context.beginPath();
+            context.moveTo(76.5, 0.0);
+            context.lineTo(8.5, 0.0);
+            context.bezierCurveTo(3.8, 0.0, 0.0, 3.8, 0.0, 8.5);
+            context.lineTo(0.0, 55.5);
+            context.bezierCurveTo(0.0, 60.2, 3.8, 64.8, 8.3, 65.7);
+            context.lineTo(26.9, 69.4);
+            context.bezierCurveTo(26.9, 69.4, 10.9, 75.1, 21.3, 75.1);
+            context.lineTo(63.8, 75.1);
+            context.bezierCurveTo(74.1, 75.1, 58.1, 69.4, 58.1, 69.4);
+            context.lineTo(76.7, 65.7);
+            context.bezierCurveTo(81.3, 64.8, 85.0, 60.2, 85.0, 55.5);
+            context.lineTo(85.0, 8.5);
+            context.bezierCurveTo(85.0, 3.8, 81.2, 0.0, 76.5, 0.0);
+            context.moveTo(76.5, 55.0);
+            context.lineTo(8.5, 55.0);
+            context.lineTo(8.5, 7.7);
+            context.lineTo(76.5, 7.7);
+            context.lineTo(76.5, 55.0);
+            context.closePath();
+            context.fillStrokeShape(this);
+        },
+        fill: "#000000",
+        x: 58,
+        y: 62
+    });
+
+    var iconWh = new Kinetic.Shape({
+        drawFunc: function (context) {
+            context.save();  // !!!!!!
+            context.clip();
+            context.beginPath();
+            context.moveTo(76.5, 0.0);
+            context.lineTo(8.5, 0.0);
+            context.bezierCurveTo(3.8, 0.0, 0.0, 3.8, 0.0, 8.5);
+            context.lineTo(0.0, 55.5);
+            context.bezierCurveTo(0.0, 60.2, 3.8, 64.8, 8.3, 65.7);
+            context.lineTo(26.9, 69.4);
+            context.bezierCurveTo(26.9, 69.4, 10.9, 75.1, 21.3, 75.1);
+            context.lineTo(63.8, 75.1);
+            context.bezierCurveTo(74.1, 75.1, 58.1, 69.4, 58.1, 69.4);
+            context.lineTo(76.7, 65.7);
+            context.bezierCurveTo(81.3, 64.8, 85.0, 60.2, 85.0, 55.5);
+            context.lineTo(85.0, 8.5);
+            context.bezierCurveTo(85.0, 3.8, 81.2, 0.0, 76.5, 0.0);
+            context.moveTo(76.5, 55.0);
+            context.lineTo(8.5, 55.0);
+            context.lineTo(8.5, 7.7);
+            context.lineTo(76.5, 7.7);
+            context.lineTo(76.5, 55.0);
+            context.closePath();
+            context.fillStrokeShape(this);
+            context.restore();             // ;!!!!!!!
+        },
+        fill: "#fff",
+        x: 58,
+        y: 62
+    });
+
+    layer.add(circle);
+    layer.add(wave);
+    layer.add(iconCo);
+    layer.add(wave2);
+    layer.add(iconWh);
+    layer.add(bubbles);
+
+    stage.add(layer);
+
+    createParticlesInWave();
+
+    var anim = new Kinetic.Animation(function (frame) {
+
+        var i;
+        for (i = 0; i < count - 1; i++) {
+            points[i] = points[i + 1];
+        }
+        points[count - 1] = horizon + (osc1 + osc2 + osc3) / 3;
+
+        /*    wave.setDrawFunc(function(context) {
+         context.clip();
+         context.beginPath();
+         context.moveTo(0, points[0]);
+         for(i = 1; i < count; i++) {
+         context.lineTo(i * step, points[i]);
+         }
+         context.lineTo(200, 200);
+         context.lineTo(0, 200);
+         context.closePath();
+         context.fillStrokeShape(this);
+         context.restore();
+         });
+         */
+
+        updateParticlesInWave();
+
+    }, layer);
+
+    anim.start();
+
+};
+</script>
+     
