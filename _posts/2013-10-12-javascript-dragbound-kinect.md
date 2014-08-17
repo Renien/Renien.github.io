@@ -5,7 +5,7 @@ description: "Drag the 2D shapes inside the image canvas"
 category: articles
 tags: [javascript, 2D, kinetic.js]
 image:
-  feature: 
+  feature: post/js-2D-collision.jpg
   credit: 
   creditlink: 
 comments: true

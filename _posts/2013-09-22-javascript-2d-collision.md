@@ -5,7 +5,7 @@ description: "Detect the 2D collision using javascript"
 category: articles
 tags: [javascript, 2D]
 image:
-  feature: 
+  feature: post/js-2D-collision.jpg
   credit: 
   creditlink: 
 comments: true

@@ -5,7 +5,7 @@ description: "Uploading images using PUT API call"
 category: articles
 tags: [javascript]
 image:
-  feature: 
+  feature: post/js-cover.jpg
   credit: 
   creditlink: 
 comments: true

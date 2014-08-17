@@ -5,8 +5,8 @@ description: "Effetively as do the sorting with angular."
 category: articles
 tags: [javascript, angular.js]
 image:
-  feature: so-simple-sample-image-2.jpg
-  credit: Renien Joseph
+  feature: post/angularjs-cover.png
+  credit: 
   creditlink: 
 comments: true
 share: true

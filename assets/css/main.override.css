@@ -16,3 +16,15 @@ p {
 .publication-header-border{
 	border-bottom: 3px solid #aaa;
 }
+
+
+.read-more-toggle .btn{
+	padding: 3px;
+	font-size: 12px;
+}
+
+.read-more-link {
+	font-size: 13px;
+	color: black;
+	font-weight: bold;
+}

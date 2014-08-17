@@ -50,10 +50,10 @@ Sheraton Hotel, Langkawi, Malaysia</figcaption>
 
 
 <style type="text/css">
-.read-more-toggle .btn{
+/*.read-more-toggle .btn{
 	padding: 3px;
 	font-size: 12px;
-}
+}*/
 
 .hide {
   display: none;
