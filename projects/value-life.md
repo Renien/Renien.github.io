@@ -2,7 +2,7 @@
 layout: page
 permalink: /value-life/
 title: Project Value-Life by CRCoderz
-description: "Research based white papers"
+description: "Image Cup Competition"
 modified: 2013-09-11
 tags: []
 image:
