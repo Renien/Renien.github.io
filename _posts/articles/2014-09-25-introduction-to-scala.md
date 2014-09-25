@@ -24,18 +24,18 @@ When application becomes bigger and bigger, we always need to think of load bala
 
 ###Learning Guide
 
-<figure class="half">
+<figure class="third">
 	<img src="/blog/programming-in-scala.png" alt="image" style="box-shadow: 5px 5px 2.5px #888888;">
 </figure>
 {: .pull-right}
 
 
-<!-- <div style="box-shadow: 5px 5px 2.5px #888888;">
-![Smithsonian Image]({{ site.url }}/blog/programming-in-scala.png)
-{: .pull-right}
-</div> -->
 
-When it come to learning technologies I always starts with good book and in half way through, will start to meddle and try out with sample codes. I totally loved on Programming in Scala by Martin Odersky, Lex Spoon and Bill Venners.
+<!-- ![Smithsonian Image]({{ site.url }}/blog/programming-in-scala.png)
+{: .pull-right} -->
+
+
+When it come to learning technologies I always starts with good book and in half way through, I will start to meddle and try out with sample codes. I totally loved on Programming in Scala by Martin Odersky, Lex Spoon and Bill Venners.
 
 To speed up the learning process I recommend a great video - [**Introduction to Scala Programming.**](https://www.youtube.com/watch?v=5GhFld7-7hI){:target="_blank"}
 Since Scala is new to the programming world I thought of starting a post series for Scala programming. To make the content more clear, I will be straightforward and elaborate on key areas of Scala.
