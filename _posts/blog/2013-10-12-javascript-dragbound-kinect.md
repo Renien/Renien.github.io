@@ -2,12 +2,12 @@
 layout: post
 title: "Image Drag Bound function – kineticjs.com"
 description: "Drag the 2D shapes inside the image canvas"
-category: articles
+category: blog
 tags: [javascript, 2D, kinetic.js]
 image:
   feature: post/js-2D-collision.jpg
-  credit: 
-  creditlink: 
+  credit:
+  creditlink:
 comments: true
 share: true
 ---
@@ -88,32 +88,32 @@ The below is the overall solution in Java Script – Kinetics.js
  */
  var pointGroup = mainGroup.getChildren()[1];
  var anchorPoints = pointGroup.getChildren();
- 
+
 //Order all the anchor point list to an array
  var pointListX = [];
  var pointListY = [];
- 
+
  anchorPoints.forEach(function (anchor) {
  pointListX.push(anchor.getAbsolutePosition().x);
  pointListY.push(anchor.getAbsolutePosition().y);
  });
- 
+
 //Extarct and get the small and large points coordintes from the point list
  var smallPoint = { x: Math.min.apply(Math, pointListX), y: Math.min.apply(Math, pointListY) };
  var largePoint = { x: Math.max.apply(Math, pointListX), y: Math.max.apply(Math, pointListY) };
- 
+
 //Calculate the min and max points of the shape main group position
  var minPoint = { x: mainGroup.getAbsolutePosition().x - smallPoint.x, y: mainGroup.getAbsolutePosition().y - smallPoint.y };
  var maxPoint = { x: largePoint.x - mainGroup.getAbsolutePosition().x, y: largePoint.y - mainGroup.getAbsolutePosition().y };
- 
+
 // pre-calc some bounds so dragBoundFunc has less calc's to do
  var minX = stage.getX() + (anchor_Radious * stage.getScale().x) + minPoint.x;
  var minY = stage.getY() + (anchor_Radious * stage.getScale().y) + minPoint.y;
- 
+
 //Calclaulte the exact boundary for the polygon
  var maxX = stage.getX() + stage.getWidth() - maxPoint.x - (anchor_Radious * stage.getScale().x);
  var maxY = stage.getY() + stage.getHeight() - maxPoint.y - (anchor_Radious * stage.getScale().y);
- 
+
 /* Check for boundray values and
  Update the Position of the shape */
  var x = pos.x;

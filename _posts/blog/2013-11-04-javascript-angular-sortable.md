@@ -2,12 +2,12 @@
 layout: post
 title: "JQueryUI Accordion Sortable ng:repeat binding"
 description: "Effetively as do the sorting with angular."
-category: articles
+category: blog
 tags: [javascript, angular.js]
 image:
   feature: post/angularjs-cover.png
-  credit: 
-  creditlink: 
+  credit:
+  creditlink:
 comments: true
 share: true
 ---
@@ -37,8 +37,8 @@ update: function (e, ui) {
    $scope.editForm.$dirty = true;
    var start = ui.item.data('start'),
    end = ui.item.index();
-   if(end > start) { 
-      $scope.rawStudy.playlist.splice(end, 0, $scope.rawStudy.playlist.splice(start, 1)[0]);   
+   if(end > start) {
+      $scope.rawStudy.playlist.splice(end, 0, $scope.rawStudy.playlist.splice(start, 1)[0]);
    }
    $scope.$apply();
  }

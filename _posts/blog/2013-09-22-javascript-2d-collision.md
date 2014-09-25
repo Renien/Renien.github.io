@@ -2,12 +2,12 @@
 layout: post
 title: "Collision Detection using Custom Bounding Rectangle/Box"
 description: "Detect the 2D collision using javascript"
-category: articles
+category: blog
 tags: [javascript, 2D]
 image:
   feature: post/js-2D-collision.jpg
-  credit: 
-  creditlink: 
+  credit:
+  creditlink:
 comments: true
 share: true
 ---
@@ -23,7 +23,7 @@ To solve this problem:
 {% highlight javascript %}
 function shape_Colliding(rec1X, rec1Y, rec1Width, rec1Height,
  rec2X, rec2Y, rec2Width, rec2Height) {
- 
+
  var status = false;
  var rec1Top = rec1Y;
  var rec1Bottom = rec1Height;
@@ -33,15 +33,15 @@ function shape_Colliding(rec1X, rec1Y, rec1Width, rec1Height,
  var rec2Bottom = rec2Height;
  var rec2Left = rec2X;
  var rec2Right = rec2Width;
- 
+
 //Check for the bounding box collsion
- 
+
 if (!(rec1Bottom < rec2Top ||
  rec1Top > rec2Bottom ||
  rec1Left > rec2Right ||
  rec1Right < rec2Left))
  status = true;
- 
+
 return status;
 }
 {% endhighlight %}
@@ -63,17 +63,17 @@ This function has been add to sort the area of the polygon
 and set the Z index of the canvas
 Renien (21/8/2013)
 */
- 
+
 function polygon_Area(x, y, numPoints) {
- 
+
 var area = 0; // Accumulates area in the loop
  var j = numPoints - 1; // The last vertex is the 'previous' one to the first
- 
+
  for (var i = 0; i < numPoints; i++) {
  area = area + (x[j] + x[i]) * (y[j] - y[i]);
  j = i; //j is previous vertex to i
  }
- 
+
 return area / 2;
 }
 {% endhighlight %}
