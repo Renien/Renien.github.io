@@ -39,4 +39,4 @@ Now before we’ll do our mandatory Hello World application in my next post seri
 
 ###Blog Series
 * Introduction to Scala
-*	[**Installing Tools**](/blog/scala-blog-series/installing-tools/)
+*	[**Installing Tools**](/blog/installing-tools/)
