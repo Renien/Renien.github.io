@@ -1,14 +1,14 @@
 ---
 layout: page
 permalink: /projects/
-title: 
+title:
 description: "Projects"
 modified: 2013-09-11
 tags: []
 image:
-  feature: 
-  credit: 
-  creditlink: 
+  feature:
+  credit:
+  creditlink:
 ---
 
 <link rel="stylesheet" href="{{ site.url }}/assets/css/content.extend.css">
@@ -22,8 +22,8 @@ image:
 	<div id="babylongrid">
 
 		<article class="grid_tile">
-		<div class="h3 title"> 
-			Project E-Remote 
+		<div class="h3 title">
+			Project E-Remote
 			<div class="sub-title">
 				SMS Based Home and PC Automation System
 			</div>
@@ -34,20 +34,20 @@ image:
 		</article>
 
 		<article class="grid_tile">
-		<div class="h3 title"> 
-			Project V-Lab 
+		<div class="h3 title">
+			Project V-Lab
 			<div class="sub-title">
 				Augmented Reality Science Laboratory
 			</div>
 		</div>
-		<div class="grid_desc"> 
+		<div class="grid_desc">
 			An interactive science laboratory using Augmented Reality Technology. Aim of the project is to provide cheap and effective science laboratory solution...<a href="/v-lab/" class="read-more-link">(Read More)</a>
 		</div>
 		</article>
 
 		<article class="grid_tile">
-		<div class="h3 title"> 
-			Project Value Life 
+		<div class="h3 title">
+			Project Value Life
 			<div class="sub-title">
 				An Interactive Web Based First Aid Trainer
 			</div>
@@ -58,8 +58,8 @@ image:
 		</article>
 
 		<article class="grid_tile">
-		<div class="h3 title"> 
-			Build-IT 
+		<div class="h3 title">
+			Build-IT
 			<div class="sub-title">
 				An Interactive Web Application for 3D Construction & Interior and Exterior Design
 			</div>
@@ -73,8 +73,8 @@ image:
 	<!-- <div id="babylongrid2">
 
 		<article class="grid_tile">
-		<div class="h3 title"> 
-			Project E-Remote 
+		<div class="h3 title">
+			Project E-Remote
 			<div class="sub-title">
 				SMS Based Home and PC Automation System
 			</div>
@@ -85,20 +85,20 @@ image:
 		</article>
 
 		<article class="grid_tile">
-		<div class="h3 title"> 
-			Project V-Lab 
+		<div class="h3 title">
+			Project V-Lab
 			<div class="sub-title">
 				Augmented Reality Science Laboratory
 			</div>
 		</div>
-		<div class="grid_desc"> 
+		<div class="grid_desc">
 			An interactive science laboratory using Augmented Reality Technology. Aim of the project is to provide cheap and effective science laboratory solution...<a href="/v-lab/" class="read-more-link">(Read More)</a>
 		</div>
 		</article>
 
 		<article class="grid_tile">
-		<div class="h3 title"> 
-			Project Value Life 
+		<div class="h3 title">
+			Project Value Life
 			<div class="sub-title">
 				An Interactive Web Based First Aid Trainer
 			</div>
@@ -109,8 +109,8 @@ image:
 		</article>
 
 		<article class="grid_tile">
-		<div class="h3 title"> 
-			Build-IT 
+		<div class="h3 title">
+			Build-IT
 			<div class="sub-title">
 				An Interactive Web Application for 3D Construction & Interior and Exterior Design
 			</div>
@@ -147,4 +147,4 @@ image:
 
 	}(jQuery));
 
-		</script>
+</script>

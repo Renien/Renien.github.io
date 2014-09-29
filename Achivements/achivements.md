@@ -9,4 +9,3 @@ tags: []
 
 ![Smithsonian Image]({{ site.url }}/images/under-construction.gif)
 {: .pull-right}
-
