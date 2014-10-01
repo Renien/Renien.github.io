@@ -3,7 +3,7 @@ layout: post
 title: "Hello Scala World"
 description: "Hello world in scala"
 category: blog
-tags: [scala, scala, java, intellij]
+tags: [scala, java, intellij]
 image:
   feature:
   credit:
