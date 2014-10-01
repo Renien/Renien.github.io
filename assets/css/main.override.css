@@ -28,3 +28,13 @@ p {
 	color: black;
 	font-weight: bold;
 }
+
+/*
+	To align figure caption.
+	So this will change all
+	the images caption to
+	center
+ */
+figure figcaption {
+    text-align: center;
+}

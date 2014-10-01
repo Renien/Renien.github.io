@@ -34,12 +34,12 @@ Now to quickly access, add scala and scalac to path variables.
 |=====
 {: rules="groups" class="gridtable" }
 
-Open your terminal and type scala it will change to scala interactive interpreter. Now that we are ready, can try some single line of Scala code like arithmetic expression and enjoy the beauty of scala ☺.
+Open your terminal and type scala it will change to scala interactive interpreter (**Figure 1**). Now that we are ready, can try some single line of Scala code like arithmetic expression and enjoy the beauty of scala ☺.
 Eg :- 2+3 = 5
 
 <figure>
 	<a href="/blog/scala-arithmetic.png"><img src="/blog/scala-arithmetic.png" alt="image"></a>
-	<!-- <figcaption>scala-arithmetic</figcaption> -->
+	<figcaption>Figure 1 : interactive interpreter</figcaption>
 </figure>
 
 ###Typesafe Activator
@@ -61,14 +61,14 @@ Once it’s up and running use command or browser application to create scala te
 ###Editor
 Scala project can be setup on Eclipse but I would recommend to work on IntelliJ IDEA . It has a great support with scala and sbt build tool.
 
-To work on IntelliJ IDEA we need to install the scala plugin. To install scala plugin follow the step and you will be able to install the plugin successfully.
+To work on IntelliJ IDEA we need to install the scala plugin. To install scala plugin follow the step (**Figure 2**) and you will be able to install the plugin successfully.
 
 Click the Preference **(1)** button and Preference Window **(2)** will be opened. In preference window select Plugin **(3)** from the list and press Install Jetbrains plugin **(4)**. Now a new Plugins window **(5)** will be open from it search for Scala plugin **(6)** using the plugin search bar. That’s it , after selecting the scala plugin in right panel Install **(7)** button will appear. Since I have already installed the scala plugin it’s not visible on the screen shot.
 
 
 <figure>
   <a href="/blog/intellij-IDEA.png"><img src="/blog/intellij-IDEA.png" alt="image"></a>
-  <!-- <figcaption>Intellij IDEA</figcaption> -->
+  <figcaption>Figure 2 : Installation steps</figcaption>
 </figure>
 
 Well, now we are ready with development environment ☺. Lets start with our mandatory “Hello World” program :D.
