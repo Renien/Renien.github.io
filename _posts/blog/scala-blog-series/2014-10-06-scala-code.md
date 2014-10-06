@@ -39,7 +39,7 @@ msg = "Scala <3"
 ###Scala Functions
 
 <figure>
-  <a href="/blog/scala-blog-series/scala-funtion.png"><img src="/blog/scala-blog-series/scala-funtion.png" alt="image"></a>
+  <a href="/blog/scala-funtion.png"><img src="/blog/scala-funtion.png" alt="image"></a>
   <figcaption>Figure 2 - Scala Function</figcaption>
 </figure>
 
@@ -197,6 +197,6 @@ Now that we have seen some scala code, you can try and have fun with scala ☺. 
 
 ###Blog Series
 * [**Introduction to Scala**](/articles/introduction-to-scala/)
-*	[**Installing Tools**](/blog/scala-blog-series/installing-tools/)
-* [**Hello Scala World**](/blog/scala-blog-series/hello-scala-world/)
+*	[**Installing Tools**](/blog/installing-tools/)
+* [**Hello Scala World**](/blog/hello-scala-world/)
 * Scala Code

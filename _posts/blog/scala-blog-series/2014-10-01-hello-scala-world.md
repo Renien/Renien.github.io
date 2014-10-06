@@ -110,6 +110,6 @@ Now you have successfully create a scala project using the IDE.  We have so far 
 
 ###Blog Series
 * [**Introduction to Scala**](/articles/introduction-to-scala/)
-*	[**Installing Tools**](/blog/scala-blog-series/installing-tools/)
+*	[**Installing Tools**](/blog/installing-tools/)
 * Hello Scala World
-*	[**Scala Code**](/blog/scala-blog-series/scala-code/)
+*	[**Scala Code**](/blog/scala-code/)
