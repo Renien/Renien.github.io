@@ -39,7 +39,7 @@ msg = "Scala <3"
 ###Scala Functions
 
 <figure>
-  <a href="/blog/scala-funtion.png"><img src="/blog/scala-funtion.png" alt="image"></a>
+  <a href="/blog/scala-blog-series/scala-funtion.png"><img src="/blog/scala-blog-series/scala-funtion.png" alt="image"></a>
   <figcaption>Figure 2 - Scala Function</figcaption>
 </figure>
 
