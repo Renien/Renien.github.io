@@ -66,4 +66,4 @@ Akka can be scalable and help to develop large distributed systems. The core of 
 </figure>
 {: .pull-right}
 
-Akka concurrency by Derek Wyatt is a great book. It helped me in many ways to understand Akka structure and the working flow.  More than that, Akka official [**documentation**](http://akka.io/docs/){:target="_blank"} is also written very well. If you’re interested to work on Akka, starts with Akka concurrency book and then follow up with [**akka documentation**](http://akka.io/docs/){:target="_blank"} ☺.
+Akka concurrency by Derek Wyatt is a great book. It helped me in many ways to understand Akka structure and the working flow.  More than that, Akka official [**documentation**](http://akka.io/docs/){:target="_blank"} is also written very well. If you’re interested to work on Akka, start with Akka concurrency book and then follow up with [**akka documentation**](http://akka.io/docs/){:target="_blank"} ☺.
