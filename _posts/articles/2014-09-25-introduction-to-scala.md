@@ -42,4 +42,4 @@ Now before we’ll do our mandatory Hello World application in my next post seri
 *	[**Installing Tools**](/blog/installing-tools/)
 * [**Hello Scala World**](/blog/hello-scala-world/)
 * [**Scala Code**](/blog/scala-code/)
-* [*** Classes and Objects**](/blog/classes-and-objects/)
+* [**Classes and Objects**](/blog/classes-and-objects/)
