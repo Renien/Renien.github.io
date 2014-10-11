@@ -200,3 +200,4 @@ Now that we have seen some scala code, you can try and have fun with scala ☺. 
 *	[**Installing Tools**](/blog/installing-tools/)
 * [**Hello Scala World**](/blog/hello-scala-world/)
 * Scala Code
+* [*** Classes and Objects**](/blog/classes-and-objects/))
