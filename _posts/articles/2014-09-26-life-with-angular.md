@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Life with Angular.js"
+description: "Introduction to Angular.js"
 modified:
 categories: articles
 excerpt:

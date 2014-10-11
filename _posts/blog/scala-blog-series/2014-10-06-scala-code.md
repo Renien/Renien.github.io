@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Scala Code"
-description: "Installing tools for scala development"
+description: "Scala Code"
 category: blog
 tags: [tools, scala, java, variables]
 image:

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Classes and Objects"
-description: "Installing tools for scala development"
+description: "classes and objects in scala"
 category: blog
 tags: [scala, classes, objects, singleton]
 image:

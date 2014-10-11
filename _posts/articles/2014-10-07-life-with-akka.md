@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Life with Akka.io"
+description: "Introduction to Akka.io"
 modified:
 categories: articles
 excerpt:

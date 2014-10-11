@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Introduction to Scala"
+description: "Introduction to Scala"
 modified:
 categories: articles
 excerpt:

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Life with scikit-learn"
+description: "Introduction to scikit-learn"
 modified:
 categories: articles
 excerpt:
