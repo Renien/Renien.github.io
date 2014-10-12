@@ -94,7 +94,7 @@ object Product {
 }
 {% endhighlight %}
 
-Hope you understood about classes and objects in scala. Next we will look into Scala’s basic types and operations.
+Hope you understood about classes and objects in scala. Next we will look into functional objects and methods.
 
 ###Blog Series
 * [**Introduction to Scala**](/articles/introduction-to-scala/)
@@ -102,3 +102,4 @@ Hope you understood about classes and objects in scala. Next we will look into S
 * [**Hello Scala World**](/blog/hello-scala-world/)
 * [**Scala Code**](/blog/scala-code/)
 * Classes and Objects
+* [**Functional Objects and Methods**](/blog/functinal-objects-methods/)

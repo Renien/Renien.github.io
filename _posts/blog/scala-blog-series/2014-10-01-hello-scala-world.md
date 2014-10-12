@@ -114,3 +114,4 @@ Now you have successfully create a scala project using the IDE.  We have so far 
 * Hello Scala World
 *	[**Scala Code**](/blog/scala-code/)
 * [**Classes and Objects**](/blog/classes-and-objects/)
+* [**Functional Objects and Methods**](/blog/functinal-objects-methods/)
