@@ -14,7 +14,7 @@ share: true
     
 Apache Spark is big data powerful communication component to analyzing and data manipulations.  
 
-In my previous [(**Installing PySpark - SPARK**)](blog/installing-pyspark/) blog we discussed about to build and successfully run PySpark shell. But for development the PySpark module should be able to access from our familiar editor.
+In my previous [(**Installing PySpark - SPARK**)](/blog/installing-pyspark/) blog we discussed about to build and successfully run PySpark shell. But for development the PySpark module should be able to access from our familiar editor.
 
 
 <figure style="text-align: center;">
