@@ -14,7 +14,7 @@ share: true
 ---
 
 As programmers, we are frequently asked to play around with big data to solve some problems. Developing a solution for one-user, developers will easily do it.
-But the fun part comes when the solution is going to production where very large no of people try to use our solution :D. Then we need program in away to handle the load balance and to provide a very good responsive solution for users.
+But the fun part comes when the solution is going to production where very large no of people try to use our solution :D. Then we need to program in away to handle the load balance and to provide a very good responsive solution for users.
 
 > The future has already arrived. It's just not evenly distributed yet. - William Gibson
 
