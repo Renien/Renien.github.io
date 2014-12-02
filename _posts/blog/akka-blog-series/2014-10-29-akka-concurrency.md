@@ -73,5 +73,5 @@ This is the abstract of **Akka Concurrency**. But there are many things in akka 
 
 ###Blog Series
 * [**Life with Akka.io**](/articles/life-with-akka/)
-*	[**Set Up Akka**](/blog/set-up-akka/)
+* [**Set Up Akka**](/blog/set-up-akka/)
 * Akka Concurrency
