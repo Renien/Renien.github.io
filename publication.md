@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /publication/
-title: publication
+title: Publication
 description: "Research based white papers"
 modified: 2013-09-11
 tags: []
@@ -11,10 +11,10 @@ image:
   creditlink: 
 ---
 
-[**DREAM – IT – 3D RECONSTRUCTION AND BUILDING INFORMATION MODELLING ->**](http://www.ijeset.com/volume-6-issue-2.html){:target="_blank"} 
+[**DREAM – IT – 3D RECONSTRUCTION AND BUILDING INFORMATION MODELLING >>**](http://www.ijeset.com/volume-6-issue-2.html){:target="_blank"} 
 
 <div class="publication-header-conference">International Journal of Engineering Sciences & Emerging Technologies</div>
-<div>October 1, 2013</div>
+<div class="publication-date">October 1, 2013</div>
 <div class="publication-header"></div>
 <div class="read-more-content">
 <p>
@@ -26,13 +26,13 @@ same scene obtained using a common camera; which can be used for interior and ex
 
 
 
-[**Build-IT - An Interactive Web Application for 3D Construction, Interior & Exterior Design ->**](http://isms2014.info/){:target="_blank"} 
+[**BUILD-IT - AN INTERACTIVE WEB APPLICATION FOR 3D CONSTRUCTION, INTERIOR & EXTERIOR DESIGN >>**](http://ijssst.info/Vol-15/No-3/start.pdf){:target="_blank"} 
 
 <div class="publication-header-conference">Fifth International conference on Intelligent Systems, Modelling and Simulation (http://isms2014.info/) [IEEE]</div>
-<div>Pending</div>
+<div>January 26, 2014</div>
 <div class="publication-header"></div>
 <div class="read-more-content">
-<p>
+<p> 
 <figure class="third">
 	{% for item in (1..11) %}
 	<a href="{{ site.url }}/images/publication/{{ item }}.jpg"><img src="{{ site.url }}/images/publication/{{ item }}.jpg" alt="image"></a>
@@ -47,6 +47,19 @@ Sheraton Hotel, Langkawi, Malaysia</figcaption>
 </div>
 <div markdown="0" class="read-more-toggle" align="right"><a class="btn">Read More</a></div>
 
+[**SINGLE PAGE APPLICATION AND CANVAS DRAWING >>**](http://arxiv.org/abs/1502.03530){:target="_blank"} 
+
+<div class="publication-header-conference">International Journal of Web & Semantic Technology (IJWesT) Vol.6, No.1, January 2015</div>
+<div class="publication-date">January 31, 2015</div>
+<div class="publication-header"></div>
+<div class="read-more-content">
+<p>
+Recently, with the impact of AJAX a new way of web development techniques have been emerged. Hence, with the help of this model, single-page web application was introduced which can be updated/replaced independently. Today we have a new challenge of building a powerful single-page application using the currently emerged technologies. Gaining an understanding of navigational model and user interface structure of the source application is the first step to successfully build a single- page application. 
+
+In this paper, it explores not only building powerful single-page application but also Two Dimensional (2D) drawings on images and videos. Moreover, in this research it clearly express the findings on 2D multi-points polygon drawing concepts on client side;  real-time data binding in between drawing module on image , video and view pages.
+</P>
+</div>
+<div markdown="0" class="read-more-toggle" align="right"><a class="btn">Read More</a></div>
 
 
 <style type="text/css">

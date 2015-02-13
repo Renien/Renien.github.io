@@ -29,6 +29,9 @@ p {
 	font-weight: bold;
 }
 
+.publication-date {
+    margin-bottom: 1%;
+}
 /*
 	To align figure caption.
 	So this will change all
