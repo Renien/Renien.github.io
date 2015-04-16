@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Moving to Scala | Play | Akka | Life is getting more fascinating"
+title: "Moving to Scala | Play | Akka | Life is becoming more fascinating"
 description: "Fault tolerance reactive application"
 modified:
 categories: articles
