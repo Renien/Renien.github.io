@@ -202,3 +202,4 @@ Now that we have seen some scala code, you can try and have fun with scala ☺. 
 * Scala Code
 * [**Classes and Objects**](/blog/classes-and-objects/)
 * [**Functional Objects and Methods**](/blog/functinal-objects-methods/)
+* [**Functional Objects and Methods**](/blog/scala-expression/)
