@@ -80,7 +80,7 @@ Well, now we are ready with development environment ☺. Lets start with our man
 * [**Scala Code**](/blog/scala-code/)
 * [**Classes and Objects**](/blog/classes-and-objects/)
 * [**Functional Objects and Methods**](/blog/functinal-objects-methods/)
-* [**Functional Objects and Methods**](/blog/scala-expression/)
+* [**Scala Expression**](/blog/scala-expression/)
 
 <!-- CSS goes in the document HEAD or added to your external stylesheet -->
 <style type="text/css">

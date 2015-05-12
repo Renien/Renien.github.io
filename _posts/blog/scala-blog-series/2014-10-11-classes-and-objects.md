@@ -103,4 +103,4 @@ Hope you understood about classes and objects in scala. Next we will look into f
 * [**Scala Code**](/blog/scala-code/)
 * Classes and Objects
 * [**Functional Objects and Methods**](/blog/functinal-objects-methods/)
-* [**Functional Objects and Methods**](/blog/scala-expression/)
+* [**Scala Expression**](/blog/scala-expression/)
