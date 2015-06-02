@@ -96,7 +96,7 @@ The following above code consist a `Fish` class with the attribute fish name and
 
 There can be a situation where you will need to iterate through a collection where it consists of another collection list. Basically it’s a nested collection data. Scala provides a great feature to run through the collection data with **one for loop** ☺.
 
-You have come to a stage where you need to manipulate and analyse with two or more groups of dataset. The following below code shows clearly while iterating through `fish list` include the  `lake fish` list in an effective way.
+You have come to a stage where you need to manipulate and analyse with two or more groups of dataset. The following below code shows clearly while iterating through `fish list` include the  `lakeFish` list in an effective way.
 
 {% highlight scala %}
 val lakeFish = List(new Fish("Freshwater drum", false), new Fish("Atlantic salmon", true))
