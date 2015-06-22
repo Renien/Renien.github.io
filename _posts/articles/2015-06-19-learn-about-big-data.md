@@ -45,7 +45,7 @@ I got so attracted to these technologies and making me so crazy. The following l
 
 * **Hue** is a web application interface for Hadoop - [*http://gethue.com/*](http://gethue.com/){:target="_blank"}
 
-* **Apache HBsae** is a column-oriented distributed data store. The cell is where HBase stores data as a value. A cell is identified by its [rowkey, column family, column qualifier] coordinate within a table. Its design and develop is inspired by google’s BigTable
+* **Apache HBase** is a column-oriented distributed data store. The cell is where HBase stores data as a value. A cell is identified by its [rowkey, column family, column qualifier] coordinate within a table. Its design and develop is inspired by google’s BigTable
 
 
 The above lists are incomplete and always will be in the IT world. In future I’ll try to discuss more in detail about each of these technologies.
