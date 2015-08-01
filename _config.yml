@@ -47,8 +47,8 @@ links:
     url: /achivements/
   - title: Publication
     url: /publication/
-  - title: Hobby
-    url: /hobby/
+  - title: Talk
+    url: /talk/
 
 future:      true
 highlighter: pygments
