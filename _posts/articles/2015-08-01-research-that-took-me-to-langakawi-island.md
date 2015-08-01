@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Research that took me to Langakawi island"
+title: "Research that took me to Langkawi island"
 description: "Langkawi Experience"
 modified:
 categories: articles
