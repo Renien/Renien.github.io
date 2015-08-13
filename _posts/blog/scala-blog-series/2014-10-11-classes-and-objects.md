@@ -98,9 +98,10 @@ Hope you understood about classes and objects in scala. Next we will look into f
 
 ###Blog Series
 * [**Introduction to Scala**](/articles/introduction-to-scala/)
-*	[**Installing Tools**](/blog/installing-tools/)
+* [**Installing Tools**](/blog/installing-tools/)
 * [**Hello Scala World**](/blog/hello-scala-world/)
 * [**Scala Code**](/blog/scala-code/)
 * Classes and Objects
 * [**Functional Objects and Methods**](/blog/functinal-objects-methods/)
 * [**Scala Expression**](/blog/scala-expression/)
+* [**Traits**](/blog/trait/)

@@ -75,12 +75,13 @@ Well, now we are ready with development environment ☺. Lets start with our man
 
 ###Blog Series
 * [**Introduction to Scala**](/articles/introduction-to-scala/)
-*	Installing Tools
+* Installing Tools
 * [**Hello Scala World**](/blog/hello-scala-world/)
 * [**Scala Code**](/blog/scala-code/)
 * [**Classes and Objects**](/blog/classes-and-objects/)
 * [**Functional Objects and Methods**](/blog/functinal-objects-methods/)
 * [**Scala Expression**](/blog/scala-expression/)
+* [**Traits**](/blog/trait/)
 
 <!-- CSS goes in the document HEAD or added to your external stylesheet -->
 <style type="text/css">

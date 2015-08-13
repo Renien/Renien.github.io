@@ -160,9 +160,10 @@ So far we saw more aspects of classes in Scala. In next post we will discuss abo
 
 ###Blog Series
 * [**Introduction to Scala**](/articles/introduction-to-scala/)
-*	[**Installing Tools**](/blog/installing-tools/)
+* [**Installing Tools**](/blog/installing-tools/)
 * [**Hello Scala World**](/blog/hello-scala-world/)
 * [**Scala Code**](/blog/scala-code/)
 * [**Classes and Objects**](/blog/classes-and-objects/)
 * Functional Objects and Methods
 * [**Scala Expression**](/blog/scala-expression/)
+* [**Traits**](/blog/trait/)
