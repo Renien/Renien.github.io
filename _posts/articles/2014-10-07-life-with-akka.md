@@ -71,5 +71,6 @@ Akka concurrency by Derek Wyatt is a great book. It helped me in many ways to un
 
 ###Blog Series
 * Life with Akka.io
-*	[**Set Up Akka**](/blog/set-up-akka/)
+* [**Set Up Akka**](/blog/set-up-akka/)
 * [**Akka Concurrency**](/blog/akka-concurrency/)
+* [**Actor**](/blog/actor/)
