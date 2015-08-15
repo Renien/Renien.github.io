@@ -45,3 +45,5 @@ Now before we’ll do our mandatory Hello World application in my next post seri
 * [**Scala Code**](/blog/scala-code/)
 * [**Classes and Objects**](/blog/classes-and-objects/)
 * [**Functional Objects and Methods**](/blog/functinal-objects-methods/)
+* [**Scala Expression**](/blog/scala-expression/)
+* [**Traits**](/blog/trait/)
