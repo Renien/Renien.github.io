@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Actor System"
-description: "Like in large organisation actors form hierarchies."
+description: "Like in large organization actors form hierarchies."
 category: blog
 tags: [Akka.io, scala, Concurrency, Actor, Path, Erlang]
 image:
