@@ -12,7 +12,7 @@ comments: true
 share: true
 ---
 
-Like in large organisation actors form hierarchies. In my previous [**Actors post**](/blog/akka-concurrency/) we discussed a bit on hierarchy. The **_Figure 1_** shows the tree hierarchy structure while creating actors. Therefore each actor will always contain a parent actor, which is a supervised actor. We will take supervise actor in a separate post and discuss.
+Like in large organization actors form hierarchies. In my previous [**Actors post**](/blog/akka-concurrency/) we discussed a bit on hierarchy. The **_Figure 1_** shows the tree hierarchy structure while creating actors. Therefore each actor will always contain a parent actor, which is a supervised actor. We will take supervise actor in a separate post and discuss.
 
 <figure style="text-align: center;">
   <a href="/blog/akka-blog-series/akka-hierarchical-structure.jpg"><img src="/blog/akka-blog-series/akka-hierarchical-structure.jpg" alt="image"></a>
@@ -40,7 +40,7 @@ Everything is build up from ActorSystem. In **_Figure 2_** shows the thing that 
 
 * **_User Guardian Actor :_** We are now concern about actors. They can’t independently stay in Akka application.  It will exist under a parent. Hence, User Guardian Actor is the parent of all Actors that we create from ActorSystem (using ActorSystem.actorOf() method)
 
-* **_Event Stream :_** This components lives on ActorSystem and it’s mainly used to log the messages.  
+* **_Event Stream :_** This component lives on ActorSystem and it’s mainly used to log the messages.  
 
 * **_Scheduler :_** When ever we create a scheduler that will created on ActorSytem.
 
