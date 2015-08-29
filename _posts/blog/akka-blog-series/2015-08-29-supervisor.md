@@ -49,11 +49,10 @@ In Actor model to change the life cycle there are certain methods provided that 
 
 * **_preStart() :_** Can perform any initialization methods here that need to be executed before to achieve the main task. During this stage we can send messages to the actor itself. Eg: self ! Initialize 
 
-* **_postStop() :_** Once the actor is ready to stop, can use the method to finalize some activities. Eg: Close the session or clean up the data.
-
 * **_postStop() :_** Once the actor is stopped, can use the method to finalize some activities. Eg: Close the session or clean up the data.
->>>>>>> Supervision post
+
 * **_postRestart() :_** After a injury  once the actor model is restarted using this method we can execute some activates. Eg: Inform an actor that I’m back to normal state.
+
 * **_preRestart() :_** After a injury  before the actor model is up and live can use this method to achieve some task that are used by the actor before it’s failure. Eg: Connect to the data base or create a new session. 
 
 Now lets take the same previous example but with some slight modification in Family Hierarchy (**_Figure 2_**).  In family when sons and daughters are broken down parents are the first people to notice and to help them. It’s obvious mostly sons are attached to mother and daughters are to their father. Therefore lets create our actor models as follows.
