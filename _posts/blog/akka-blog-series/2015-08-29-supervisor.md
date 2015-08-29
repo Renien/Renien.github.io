@@ -43,12 +43,16 @@ There are two type of supervisorStrategy :
 * **_OneForOneStrategy() :_** This strategy dealts with on one-for-one-basic action. When an Actor is failed the decision of the supervisor is given to the injured/failed actor.   
 * **_AllForOneStrategy() :_** This strategy is contrast to OneForOneStrategy(). Though it’s a single child actor failure, the decision that made by the supervisor will be applied to all the children actors.
 
-> SupervisorStrategy helps keep an Actor Application fault-tolerant
+> SupervisorStrategy helps to keep an Actor Application fault-tolerant
 
 In Actor model to change the life cycle there are certain methods provided that can be overridden and use it to do our operations. These are some of the methods that helps to execute some jobs within the failing Actor.
 
 * **_preStart() :_** Can perform any initialization methods here that need to be executed before to achieve the main task. During this stage we can send messages to the actor itself. Eg: self ! Initialize 
+
 * **_postStop() :_** Once the actor is ready to stop, can use the method to finalize some activities. Eg: Close the session or clean up the data.
+
+* **_postStop() :_** Once the actor is stopped, can use the method to finalize some activities. Eg: Close the session or clean up the data.
+>>>>>>> Supervision post
 * **_postRestart() :_** After a injury  once the actor model is restarted using this method we can execute some activates. Eg: Inform an actor that I’m back to normal state.
 * **_preRestart() :_** After a injury  before the actor model is up and live can use this method to achieve some task that are used by the actor before it’s failure. Eg: Connect to the data base or create a new session. 
 
@@ -122,7 +126,7 @@ roy ! Kill                              //Kill the son
 sally ! InjuredMessage.Injured("Crash") //Crash the daughter
 {% endhighlight %}
 
-You will be wondering about the **_Kill_** message which is defined Akka. Basically when Kill message is passed to an actor it will **_throw ActorKilledException_**. Therefore according to our supervisorStrategy implementation the failing actor will be stopped by the supervisor.
+You will be wondering about the **_Kill_** message which is defined in Akka. Basically when Kill message is passed to an actor it will **_throw ActorKilledException_**. Therefore according to our supervisorStrategy implementation the failing actor will be stopped by the supervisor.
 
 After running the sample application (TestSupervisor) the log file will be as follows,
 
