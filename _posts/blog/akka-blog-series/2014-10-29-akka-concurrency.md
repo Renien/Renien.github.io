@@ -77,3 +77,4 @@ This is the abstract of **Akka Concurrency**. But there are many things in akka 
 * Akka Concurrency
 * [**Actor**](/blog/actor/)
 * [**Actor System**](/blog/actor-system/)
+* [**Supervision / Supervisor**](/blog/supervisor/)

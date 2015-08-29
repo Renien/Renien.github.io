@@ -145,3 +145,4 @@ To download the sample code : [**Download**](https://github.com/Renien/akka-tuto
 * [**Akka Concurrency**](/blog/akka-concurrency/)
 * [**Actor**](/blog/actor/)
 * Actor System
+* [**Supervision / Supervisor**](/blog/supervisor/)
