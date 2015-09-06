@@ -74,3 +74,6 @@ Akka concurrency by Derek Wyatt is a great book. It helped me in many ways to un
 * [**Set Up Akka**](/blog/set-up-akka/)
 * [**Akka Concurrency**](/blog/akka-concurrency/)
 * [**Actor**](/blog/actor/)
+* [**Actor System**](/blog/actor-system/)
+* [**Supervision / Supervisor**](/blog/supervisor/)
+* [**Being Stateful](/blog/being-stateful/)

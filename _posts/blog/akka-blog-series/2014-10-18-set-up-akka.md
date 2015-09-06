@@ -76,8 +76,9 @@ That’s it ☺. Now the tools are ready to build a large-scale concurrent appli
 
 ###Blog Series
 * [**Life with Akka.io**](/articles/life-with-akka/)
-*	Set Up Akka
+* Set Up Akka
 * [**Akka Concurrency**](/blog/akka-concurrency/)
 * [**Actor**](/blog/actor/)
 * [**Actor System**](/blog/actor-system/)
 * [**Supervision / Supervisor**](/blog/supervisor/)
+* [**Being Stateful](/blog/being-stateful/)

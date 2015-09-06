@@ -146,3 +146,4 @@ To download the sample code : [**Download**](https://github.com/Renien/akka-tuto
 * [**Actor**](/blog/actor/)
 * Actor System
 * [**Supervision / Supervisor**](/blog/supervisor/)
+* [**Being Stateful](/blog/being-stateful/)
