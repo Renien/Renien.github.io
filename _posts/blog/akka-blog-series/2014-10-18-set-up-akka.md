@@ -81,4 +81,4 @@ That’s it ☺. Now the tools are ready to build a large-scale concurrent appli
 * [**Actor**](/blog/actor/)
 * [**Actor System**](/blog/actor-system/)
 * [**Supervision / Supervisor**](/blog/supervisor/)
-* [**Being Stateful](/blog/being-stateful/)
+* [**Being Stateful**](/blog/being-stateful/)
