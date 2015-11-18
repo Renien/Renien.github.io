@@ -117,3 +117,4 @@ Now you have successfully create a scala project using the IDE.  We have so far 
 * [**Functional Objects and Methods**](/blog/functinal-objects-methods/)
 * [**Scala Expression**](/blog/scala-expression/)
 * [**Traits**](/blog/trait/)
+* [**Implicit in Scala**](/blog/implicit/)

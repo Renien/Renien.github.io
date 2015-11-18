@@ -204,3 +204,4 @@ Now that we have seen some scala code, you can try and have fun with scala ☺. 
 * [**Functional Objects and Methods**](/blog/functinal-objects-methods/)
 * [**Scala Expression**](/blog/scala-expression/)
 * [**Traits**](/blog/trait/)
+* [**Implicit in Scala**](/blog/implicit/)

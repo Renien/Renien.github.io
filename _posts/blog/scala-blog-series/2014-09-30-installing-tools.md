@@ -82,6 +82,7 @@ Well, now we are ready with development environment ☺. Lets start with our man
 * [**Functional Objects and Methods**](/blog/functinal-objects-methods/)
 * [**Scala Expression**](/blog/scala-expression/)
 * [**Traits**](/blog/trait/)
+* [**Implicit in Scala**](/blog/implicit/)
 
 <!-- CSS goes in the document HEAD or added to your external stylesheet -->
 <style type="text/css">

@@ -130,3 +130,4 @@ To understand the yield functionality lets take the fish example the â€˜seaFishâ
 * [**Functional Objects and Methods**](/blog/functinal-objects-methods/)
 * Scala Expression
 * [**Traits**](/blog/trait/)
+* [**Implicit in Scala**](/blog/implicit/)

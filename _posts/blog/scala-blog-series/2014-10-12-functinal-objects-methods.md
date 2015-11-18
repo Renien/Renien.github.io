@@ -167,3 +167,4 @@ So far we saw more aspects of classes in Scala. In next post we will discuss abo
 * Functional Objects and Methods
 * [**Scala Expression**](/blog/scala-expression/)
 * [**Traits**](/blog/trait/)
+* [**Implicit in Scala**](/blog/implicit/)

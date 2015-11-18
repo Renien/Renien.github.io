@@ -105,3 +105,4 @@ Hope you understood about classes and objects in scala. Next we will look into f
 * [**Functional Objects and Methods**](/blog/functinal-objects-methods/)
 * [**Scala Expression**](/blog/scala-expression/)
 * [**Traits**](/blog/trait/)
+* [**Implicit in Scala**](/blog/implicit/)
