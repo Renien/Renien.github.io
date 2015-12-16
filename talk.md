@@ -109,6 +109,30 @@ After presentation we had interactive demo session with Augmented Reality toys a
 
 <div markdown="0" class="read-more-toggle" align="right"><a class="btn">v More</a></div>
 
+**Introduction to Big Data**
+
+<div class="publication-header-conference">Introduction to Big Data</div>
+<div>December 2015</div>
+
+<div markdown="1" class="read-more-content">
+<br>
+
+[**Dr. Thabotharan Kathiravelu**](https://lk.linkedin.com/in/thabotharan){:target="_blank"}, HOD at the Faculty of Science, [**University of Jaffna**](https://www.facebook.com/Faculty-of-Science-University-of-Jaffna-138961572883357/){:target="_blank"}, invited to do a workshop for their junior and senior students. So [**Raathigeshan**](https://twitter.com/Raathigeshan){:target="_blank"} and me got the opportunity to conduct a two days workshop in our hometown with totally two different topics.  
+
+We had a good interactive and hands-on session in Big Data and Web Technologies. It was two great days, sharing knowledge with young energetic engineers. After the session on last day considering the request of the students we had a brief discussion about final year projects and ideas.
+
+<figure class="half">
+    {% for item in (1..6) %}
+    <a href="{{ site.url }}/images/talk/big-data-jaffna/{{ item }}.jpg">
+            <img src="{{ site.url }}/images/talk/big-data-jaffna/{{ item }}.jpg" alt="image">
+            </a>
+    {% endfor %}
+	<figcaption>During the session on 11th and 12th December 2015</figcaption>
+</figure> 
+</div>
+
+<div markdown="0" class="read-more-toggle" align="right"><a class="btn">v More</a></div>
+
 <style type="text/css">
 .read-more-toggle .btn{
 	padding: 3px;
