@@ -61,6 +61,18 @@ In this paper, it explores not only building powerful single-page application bu
 </div>
 <div markdown="0" class="read-more-toggle" align="right"><a class="btn">Read More</a></div>
 
+[**A SIMPLE STUDY ON SEARCH ENGINE TEXT CLASSIFICATION FOR RETAILS STORE >>**](http://www.acsij.org/acsij/article/view/415){:target="_blank"} 
+
+<div class="publication-header-conference">Advances in Computer Science : an International Journal (acsij) Volume 5, Issue 1, January 2016 </div>
+<div class="publication-date">January 31, 2016</div>
+<div class="publication-header"></div>
+<div class="read-more-content">
+<p>
+It is obvious, the continuing growth of textual content rapidly increasing within the Word Wide Web (WWW). So certainly with the combination of sophisticated text processing and classification techniques it leads to produce high accurate search results. Even though a large body of research has delved into these problems; each has their theories and different approaches according to their data collection. This has been very challenging task continuously and this paper converges solutions, comprehensive comparisons that leads to different approaches. Therefore it will help to implement a robust search engine.  The research proves probability text classification models classify documents robustly. But to improve the search result that involves short texts, we should certainly go through a hybrid approach including rules and statistical neural network models. As a pruning components the pre-processing and post-processing modules should adapted. And also due to the dynamic data the process pipeline should be frequently update.
+</P>
+</div>
+<div markdown="0" class="read-more-toggle" align="right"><a class="btn">Read More</a></div>
+
 
 <style type="text/css">
 /*.read-more-toggle .btn{
