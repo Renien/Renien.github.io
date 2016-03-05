@@ -8,7 +8,7 @@ excerpt:
 tags: [experience,scientific,R Language,book]
 image:
   feature:
-date: 2016-05-01T15:39:55-04:00
+date: 2016-03-05T15:39:55-04:00
 comments: true
 share: true
 ---
