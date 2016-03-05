@@ -51,7 +51,7 @@ links:
     url: /talk/
 
 future:      true
-highlighter: pygments
+highlighter: rouge
 markdown:    kramdown
 
 gems:
