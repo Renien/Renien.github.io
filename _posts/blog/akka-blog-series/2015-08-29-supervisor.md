@@ -157,7 +157,7 @@ We can see in the printed log **_Sally_** Actor was restarted and **_Roy_** Acto
 
 To download the sample code : [**Download**](https://github.com/Renien/akka-tutorials){:target="_blank"}
 
-###Blog Series
+### Blog Series
 * [**Life with Akka.io**](/articles/life-with-akka/)
 * [**Set Up Akka**](/blog/set-up-akka/)
 * [**Akka Concurrency**](/blog/akka-concurrency/)

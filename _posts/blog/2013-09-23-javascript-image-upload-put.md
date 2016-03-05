@@ -21,7 +21,7 @@ Initially I thought under HTML form context both API call (POST and PUT) will do
 I confirmed this by doing simple image upload for PUT API call in .NET And also I try to send the request using Firefox ‘HTTP Requester’ works perfectly.
 This happen because .NET and the Fireforx extension push the data as Base64 format where Google POSTMAN send the data as Formdata.
 
-###Solution to this problem in JavaScript
+### Solution to this problem in JavaScript
 
 Using HTML5 File API can easily read as binary data format using ‘readAsBinaryString’ method. But this method seems to be having a problem due to some bug and returns corrupted data.
 

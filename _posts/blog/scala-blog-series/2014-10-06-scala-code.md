@@ -12,7 +12,7 @@ comments: true
 share: true
 ---
 
-###Defining variables
+### Defining variables
 
 Scala has two kinds of variables, vals and vars. A val is similar to a final variable in Java. Once initialized, a val can never be reassigned. A var, its more likely var variables in C#. A var can be reassigned throughout its lifetime. Here’s a val definition: **Figure 1**
 
@@ -36,14 +36,14 @@ msg = "Scala <3"
   <figcaption>Figure 1 - Scala Varibles</figcaption>
 </figure>
 
-###Scala Functions
+### Scala Functions
 
 <figure>
   <a href="/blog/scala-blog-series/scala-funtion.png"><img src="/blog/scala-blog-series/scala-funtion.png" alt="image"></a>
   <figcaption>Figure 2 - Scala Function</figcaption>
 </figure>
 
-###Loops with while and for decision if
+### Loops with while and for decision if
 
 {% highlight scala %}
 var args = Array(-1,3,4,-5) //Array
@@ -61,7 +61,7 @@ while (i < args.length) { //While loop
   <figcaption>Figure 3 - While and If</figcaption>
 </figure>
 
-###Iterate with foreach and for
+### Iterate with foreach and for
 
 {% highlight scala %}
 var args = Array(-1,3,4,-5) //Array
@@ -75,7 +75,7 @@ for (arg <- args)
   <figcaption>Figure 4 - Foreach</figcaption>
 </figure>
 
-###Array
+### Array
 
 {% highlight scala %}
 val greetStrings = new Array[String](3)
@@ -91,7 +91,7 @@ val greetStrings = new Array[String](3)
   <figcaption>Figure 5 - Array</figcaption>
 </figure>
 
-###Operations
+### Operations
 
 Basically all operations are methods call in scala
 
@@ -100,7 +100,7 @@ Basically all operations are methods call in scala
   <figcaption>Figure 6 - Operations are functions</figcaption>
 </figure>
 
-###List
+### List
 
 * Mutated (:::)
 Basically it’s like ‘Python Extends’. It will include two list and will return with a new list.
@@ -147,7 +147,7 @@ println(s"New list with 'Nil', $ls2")
 
 To get more details on list check the [**scala api doc**](http://www.scala-lang.org/api/current/index.html#scala.collection.immutable.List){:target="_blank"}
 
-###Tuples
+### Tuples
 
 If you are a Python programmer you would have probably know about this container. It’s a very useful container object. Like lists, tuples are immutable, but unlike lists, tuples can contain different types of elements.
 
@@ -164,13 +164,13 @@ println(pair._2)
   <figcaption>Figure 10 - Tuple</figcaption>
 </figure>
 
-###Mutable and Immutable
+### Mutable and Immutable
 Mutable and immutable are English words meaning "can change" and "cannot change" respectively. The meaning of the words is the same in the IT context; i.e.
 *	a mutable string can be changed, and
 *	an immutable string cannot be changed.
 *	For example, arrays are always mutable; lists are always immutable
 
-###Sets and Maps
+### Sets and Maps
 
 {% highlight scala %}
 //Set
@@ -195,7 +195,7 @@ println(romanNumbers(4))
 
 Now that we have seen some scala code, you can try and have fun with scala ☺. In my next blog lets dive into more details on class and objects.
 
-###Blog Series
+### Blog Series
 * [**Introduction to Scala**](/articles/introduction-to-scala/)
 *	[**Installing Tools**](/blog/installing-tools/)
 * [**Hello Scala World**](/blog/hello-scala-world/)

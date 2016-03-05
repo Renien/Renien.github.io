@@ -33,7 +33,7 @@ If you want to try with some Artificial intelligence implementation I would reco
 
 Scit-learn is Machine Learning library in Python, which contains lots of Classification and Neural Network models. This library helped me a lot to implement Artificial intelligence based Search engine ☺ and I was able to implement the Search Engine with a higher accuracy prediction. Text classification is a major area; I will talk about the implementation for AI based search engine in my next article ☺.
 
-###Learning Guide
+### Learning Guide
 
 <figure>
   <a href="/blog/building-machine-learning-systems-with-python.png"><img src="/blog/building-machine-learning-systems-with-python.png" alt="image" style="box-shadow: 5px 5px 2.5px #888888; margin: 0 0 10px 10px; max-width:200px;"></a>

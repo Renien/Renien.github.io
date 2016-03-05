@@ -14,7 +14,7 @@ share: true
 
 Akka is a toolkit designed to building scalable, fault-tolerant applications on the JVM. It provides many components to achieve our goals.
 
-###The Actor
+### The Actor
 
 When we start looking at Akka containers, it’s the
 
@@ -36,7 +36,7 @@ So basically to achieve big goals we should end up with teamwork.
 
 > “Alone we can do so little; together we can do so much” ― Helen Keller
 
-###Message Passing
+### Message Passing
 
 Like we previously discussed your working as Developer at a software company. To implement and produce a software product application you will get assign to task by coworkers and meantime you will try to do other tasks as well.(**Figure 1**).
 
@@ -71,7 +71,7 @@ This is the abstract of **Akka Concurrency**. But there are many things in akka 
 
 
 
-###Blog Series
+### Blog Series
 * [**Life with Akka.io**](/articles/life-with-akka/)
 * [**Set Up Akka**](/blog/set-up-akka/)
 * Akka Concurrency

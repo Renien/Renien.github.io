@@ -18,7 +18,7 @@ We can download the latest release from [**scala download**](http://www.scala-la
 tool that helps developers get started with Scala quickly.
 
 
-###Installing binaries  
+### Installing binaries  
 
 [**Simply download**](http://downloads.typesafe.com/scala/2.11.2/scala-2.11.2.tgz?_ga=1.182497573.2099955192.1408334166){:target="_blank"} the binaries and unpack the archive
 
@@ -42,7 +42,7 @@ Eg :- 2+3 = 5
 	<figcaption>Figure 1 : interactive interpreter</figcaption>
 </figure>
 
-###Typesafe Activator
+### Typesafe Activator
 
 The Typesafe Reactive Platform provides developers with the most powerful tools to build modern applications that react to events, react to load, react to failure, and react to users. Typesafe Reactive Platform consist of these following popular frameworks
 
@@ -58,7 +58,7 @@ All these technology are bundle together and the platform is distributed through
 
 Once it’s up and running use command or browser application to create scala template and start to work on it.
 
-###Editor
+### Editor
 Scala project can be setup on Eclipse but I would recommend to work on IntelliJ IDEA . It has a great support with scala and sbt build tool.
 
 To work on IntelliJ IDEA we need to install the scala plugin. To install scala plugin follow the step (**Figure 2**) and you will be able to install the plugin successfully.
@@ -73,7 +73,7 @@ Click the Preference **(1)** button and Preference Window **(2)** will be opened
 
 Well, now we are ready with development environment ☺. Lets start with our mandatory “Hello World” program :D.
 
-###Blog Series
+### Blog Series
 * [**Introduction to Scala**](/articles/introduction-to-scala/)
 * Installing Tools
 * [**Hello Scala World**](/blog/hello-scala-world/)

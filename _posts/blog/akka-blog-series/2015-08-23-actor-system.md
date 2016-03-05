@@ -139,7 +139,7 @@ I hope now you would have got a pretty good idea about the ActorSystem, actor hi
 
 To download the sample code : [**Download**](https://github.com/Renien/akka-tutorials){:target="_blank"}
 
-###Blog Series
+### Blog Series
 * [**Life with Akka.io**](/articles/life-with-akka/)
 * [**Set Up Akka**](/blog/set-up-akka/)
 * [**Akka Concurrency**](/blog/akka-concurrency/)

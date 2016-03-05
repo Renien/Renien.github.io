@@ -62,7 +62,7 @@ class Calculator(n: Int, d: Int){
   <figcaption>Figure 3 - required</figcaption>
 </figure>
 
-###Auxiliary constructors
+### Auxiliary constructors
 
 Sometimes we need multiple constructors in a class. In Scala other than the primary constructor other constructors are called **auxiliary constructors**.
 
@@ -82,7 +82,7 @@ class Calculator(n: Int, d: Int){
   <figcaption>Figure 4 - Auxiliary Constructor</figcaption>
 </figure>
 
-###Method
+### Method
 
 Now lets define a “add method” in our calculator class where it adds two values.
 
@@ -111,7 +111,7 @@ cal.add()
   <figcaption>Figure 5 - add method</figcaption>
 </figure>
 
-###Defining Operators
+### Defining Operators
 
 In scala we can do many interesting things ☺.
 
@@ -136,7 +136,7 @@ Now we can write **cal * 2**, we might also want to swap the operands, as in **2
 
 >Solution is Implicit
 
-###Implicit Conversions
+### Implicit Conversions
 
 {% highlight scala %}
 implicit def calToInt (n: Calculator): Int = {
@@ -158,7 +158,7 @@ We can create an implicit conversion that automatically converts Calculator obje
 So far we saw more aspects of classes in Scala. In next post we will discuss about scala **traits**.
 
 
-###Blog Series
+### Blog Series
 * [**Introduction to Scala**](/articles/introduction-to-scala/)
 * [**Installing Tools**](/blog/installing-tools/)
 * [**Hello Scala World**](/blog/hello-scala-world/)

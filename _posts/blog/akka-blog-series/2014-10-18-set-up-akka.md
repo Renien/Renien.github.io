@@ -15,7 +15,7 @@ share: true
 Before we go any further, let’s set up so that you’re all ready to start coding in Akka. Akka.io can be written using Java and Scala.  To reduce the learning time and easy to learn I will choose Scala to explain Akka based concurrency.
 At the time of this post Akka stable version is – Akka 2.3.6 and supported Scala stable version is - Scala 2.11.
 
-###Scala Setup with SBT
+### Scala Setup with SBT
 
 The Simple Build Tool (SBT) has become most popular and easier to work. SBT is basically a building tool like Maven and Ant. Though SBT is a new for building tool mostly it downloads all the libraries from Maven repository ☺. In my scala [**blog series**](http://renien.github.io/blog/installing-tools/){:target="_blank"} I have discussed about installing Scala with SBT very clearly. After setting up scala with SBT to download akka we need only to add dependencies from the [**maven repository**](http://mvnrepository.com/artifact/com.typesafe.akka/akka-actor_2.10/2.3.6){:target="_blank"}
 
@@ -31,7 +31,7 @@ libraryDependencies ++= Seq(
 )
 {% endhighlight %}
 
-###Pull Akka Actors into SBT
+### Pull Akka Actors into SBT
 
 If your using an Intellij IDEA once you have added the dependencies it will automatically download all the needed components. To update it through command line we’ll run **sbt update**, so we can let SBT do its things.
 
@@ -74,7 +74,7 @@ To make sure everything can be complied and run properly create MainAkka.scala f
 
 That’s it ☺. Now the tools are ready to build a large-scale concurrent application. In my next blog post lets discuss about Actors in Akka.
 
-###Blog Series
+### Blog Series
 * [**Life with Akka.io**](/articles/life-with-akka/)
 * Set Up Akka
 * [**Akka Concurrency**](/blog/akka-concurrency/)

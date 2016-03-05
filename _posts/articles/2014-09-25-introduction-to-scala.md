@@ -23,7 +23,7 @@ Scala runs on java platform, hence it interoperates seamlessly with all the java
 
 When application becomes bigger and bigger, we always need to think of load balancing. So the end solution should be highly concurrent, distributed application. Hence, [**Akka.io**](http://akka.io/){:target="_blank"} helps to Build powerful concurrent & distributed applications using scala language. I will talk about Akka.io in a different blog series in near future ☺.
 
-###Learning Guide
+### Learning Guide
 
 
 <figure>
@@ -38,7 +38,7 @@ To speed up the learning process I recommend a great video - [**Introduction to 
 Since Scala is new to the programming world I thought of starting a post series for Scala programming. To make the content more clear, I will be straightforward and elaborate on key areas of Scala.
 Now before we’ll do our mandatory Hello World application in my next post series let’s install the tools and all the need components.
 
-###Blog Series
+### Blog Series
 * Introduction to Scala
 * [**Installing Tools**](/blog/installing-tools/)
 * [**Hello Scala World**](/blog/hello-scala-world/)

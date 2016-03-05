@@ -34,7 +34,7 @@ Spark can run on [**Hadoop**](http://hadoop.apache.org/){:target="_blank"}, [**M
 
 I’m really impressed with Apache Spark and the way it works on a distributed environment. I’m planning to use it on Hadoop lets see how Apache Spark can run like a lighting bolt :D to produce the data and to do machine learning on distributed an environment with real-time data.
 
-###Learning Guide
+### Learning Guide
 
 <figure>
   <a href="/articles/apache-spark-book.png"><img src="/articles/apache-spark-book.png" alt="image" style="box-shadow: 5px 5px 2.5px #888888; margin: 0 0 10px 10px; max-width:200px;"></a>

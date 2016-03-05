@@ -22,7 +22,7 @@ class Product {
 new Product
 {% endhighlight %}
 
-###Fields
+### Fields
 
 {% highlight scala %}
 class Product {
@@ -75,7 +75,7 @@ But, a semicolon is required if you write multiple statements on a single line:
 var hello = “hello scala with semicolon”; println(hello)
 {% endhighlight %}
 
-###Singleton Object
+### Singleton Object
 
 Scala is more unique and easy to use language than java.
 
@@ -96,7 +96,7 @@ object Product {
 
 Hope you understood about classes and objects in scala. Next we will look into functional objects and methods.
 
-###Blog Series
+### Blog Series
 * [**Introduction to Scala**](/articles/introduction-to-scala/)
 * [**Installing Tools**](/blog/installing-tools/)
 * [**Hello Scala World**](/blog/hello-scala-world/)

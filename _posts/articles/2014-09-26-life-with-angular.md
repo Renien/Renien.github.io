@@ -24,7 +24,7 @@ The framework has been built in a way where it can be extend in different area o
 If you want my opinion though, I assure and will guarantee on Angular.js framework. It would be easy to reject the framework due to the complexity level but once the developers have a basic idea of the framework it will be platform where it leads to build rich client-side applications very effectively in a short time period.
 
 
-###Learning Guide
+### Learning Guide
 
 <figure>
   <a href="/blog/life-with-angular.png"><img src="/blog/life-with-angular.png" alt="image" style="box-shadow: 5px 5px 2.5px #888888; margin: 0 0 10px 10px; max-width:200px;"></a>

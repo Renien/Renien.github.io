@@ -12,7 +12,7 @@ comments: true
 share: true
 ---
 
-###If Expression 
+### If Expression 
 
 Like many other programming languages `Scala if expression` is not the same. After the execution of the code, if statements are expressions meaning that they return a value. Hence, this can be written in the following two ways:
 
@@ -35,7 +35,7 @@ else
   "Scala say’s not true"
 {% endhighlight %}
 
-###Loops
+### Loops
 
 Scala’s `while loop` behave the same like Java and C#. Scala while loop has a condition and a body. According to the condition the body context will keep on looping.
 
@@ -70,7 +70,7 @@ for(count <- 0 to nums.length -1)
 
 The above loop functionality you may have come across in Java and C#. But Scala for loop offers a lot more feature like filter, nested loop and yield.
 
-###Filtering 
+### Filtering 
 
 We some times do not want to iterate through the entire collection data and we need to break down in to a small subset. So scala provide the freedom to do that by adding condition as filter.
 
@@ -92,7 +92,7 @@ for(fish: Fish <- seaFish
 
 The following above code consist a `Fish` class with the attribute fish name and whether it’s a beautiful fish. In the next line list of `seaFish` is created and during the iteration process `ugly catfish` fishes are filtered.
 
-###Nested loops
+### Nested loops
 
 There can be a situation where you will need to iterate through a collection where it consists of another collection list. Basically it’s a nested collection data. Scala provides a great feature to run through the collection data with **one for loop** ☺.
 
@@ -105,7 +105,7 @@ for(fish <- fishGroups; fish <- fish)
   println(" => "+fish.name)
 {% endhighlight %}
 
-###Yielding
+### Yielding
 
 Using the yield keyword with `for loop` expressions, can create and return new collections data set.
 
@@ -121,7 +121,7 @@ To understand the yield functionality lets take the fish example the ‘seaFish�
   <figcaption>Figure 1 - Creating a new collections</figcaption>
 </figure>
 
-###Blog Series
+### Blog Series
 * [**Introduction to Scala**](/articles/introduction-to-scala/)
 * [**Installing Tools**](/blog/installing-tools/)
 * [**Hello Scala World**](/blog/hello-scala-world/)

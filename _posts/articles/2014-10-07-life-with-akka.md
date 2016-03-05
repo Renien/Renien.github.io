@@ -26,7 +26,7 @@ Share-state concurrency was dominating for very long time, before the message pa
 
 Now days, comparatively small applications are developed using shared-state concurrency with thread, lock and synchronized mechanism, where as large systems uses message passing concurrency concept.
 
-###Share-state Concurrency
+### Share-state Concurrency
 
 Shared-state Concurrency is concurrency among two or more processes which have some shared state between them; which both processes can read to and write from. Basically only one process read or writes at one time and while one process is doing their job rest will be queued for some time.
 
@@ -39,7 +39,7 @@ Shared-state Concurrency is concurrency among two or more processes which have s
   * Does not scale well to distributed systems.
   * Especially in the presence of unreliable connections between processes which needs to be connected over the network.
 
-###Message Passing Concurrency
+### Message Passing Concurrency
 
 Message passing concurrency is totally different from share-state concurrency. Basically there is no shared region in between the two processes. Instead each processes communicates each other by passing messages. In a real world scenario it’s like passing the ball (Processed content/Data) between two or more people.
 
@@ -60,7 +60,7 @@ Message passing concurrency is totally different from share-state concurrency. B
 
 Akka can be scalable and help to develop large distributed systems. The core of Akka, akka-actor, is very small and can be easily implement into an existing project where you need asynchronicity and concurrency without any locks. So far I’m so impressed about Akka.io and I love the way it works concurrently without blocking each other processing jobs. To understand the concept and the theory I had to go through many learning circles. So l will try to explain in a series of blog-post with sample tutorial projects in near future.
 
-###The Learning guide
+### The Learning guide
 
 <figure>
   <a href="/articles/akka-concurency.png"><img src="/articles/akka-concurency.png" alt="image" style="box-shadow: 5px 5px 2.5px #888888; margin: 0 0 10px 10px; max-width:200px;"></a>
@@ -69,7 +69,7 @@ Akka can be scalable and help to develop large distributed systems. The core of 
 
 Akka concurrency by Derek Wyatt is a great book. It helped me in many ways to understand Akka structure and the working flow.  More than that, Akka official [**documentation**](http://akka.io/docs/){:target="_blank"} is also written very well. If you’re interested to work on Akka, start with Akka concurrency book and then follow up with [**akka documentation**](http://akka.io/docs/){:target="_blank"} ☺.
 
-###Blog Series
+### Blog Series
 * Life with Akka.io
 * [**Set Up Akka**](/blog/set-up-akka/)
 * [**Akka Concurrency**](/blog/akka-concurrency/)

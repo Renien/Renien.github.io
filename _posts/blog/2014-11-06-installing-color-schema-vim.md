@@ -25,7 +25,7 @@ You can install **new color schemes** for vim editor as you want and then you ca
   <figcaption>Figure 1 - default color scheme</figcaption>
 </figure>
 
-###Turn on the syntax highlight 
+### Turn on the syntax highlight 
 
 Edit the file **“~/.vimrc”**. Create the file if not exists **“touch ~/.vimrc”**. Then in side the file type **“syntax on”**.
 
@@ -36,7 +36,7 @@ Edit the file **“~/.vimrc”**. Create the file if not exists **“touch ~/.vi
   <figcaption>Figure 2 - syntax on</figcaption>
 </figure>
 
-###Installing new Color Scheme for Vim
+### Installing new Color Scheme for Vim
 
 Lets try to install a new Vim color scheme – [**“distinguished”**](https://github.com/Lokaltog/vim-distinguished){:target="_blank"}. Download the color scheme from git repository.
 

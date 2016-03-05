@@ -14,7 +14,7 @@ share: true
 
 Now that we have installed scala development environment lets jump in to basic code and look at how we can execute Scala code. We will see 3 different way of executing scala code.
 
-###Scala interpreter
+### Scala interpreter
 
 Using Scala interpreter we can test our single line code very easily. To get the Scala Interactive Interpreter open the terminal and type “Scala”, it will change to command line scala interpreter mode.
 Once the command line interpreter is ready copy paste the following code and press enter.
@@ -33,7 +33,7 @@ The **Figure 1** shows the result. It’s simple, now lets check how we can exec
   <figcaption>Figure 1 - Scala Interpreter</figcaption>
 </figure>
 
-###Scala Script
+### Scala Script
 
 We can execute the Scala code inside a text file which ends with “.scala” and can execute in command line by typing “scala filename”. For instance lets create a scala file which contains “println(Hello World”)”  **(Figure 2)**.
 
@@ -47,7 +47,7 @@ scala hello-wolrd.scala
   <figcaption>Figure 2 - Scala script excecution</figcaption>
 </figure>
 
-###Compile and Run
+### Compile and Run
 
 
 If we need to compile and run the code, the code need to be in the context of an application so lets create an object with a main method, which prints “Hello World”.
@@ -72,7 +72,7 @@ Not like in Java / C# Scala code can be written in many ways but the result will
 
 After creating your Scala script to compile use “scalac filename.scala” and to run the class file use “scala filename.class”.
 
-###Scala and Editor
+### Scala and Editor
 
 I will show you how to build Scala on Intellij IDEA. In our [**previous blog post**](/blog/installing-tools/) we talked about installing scala plugin and hope you installed it successfully. Scala supports Maven and Simple Build Tool (SBT) as building tools for a project. Since SBT is new, we will see how we can easily setup Scala projects using SBT.
 
@@ -108,7 +108,7 @@ Intellij IDEA will automatically setup everything and SBT will download the scal
 Now you have successfully create a scala project using the IDE.  We have so far covered only setting up the development environment and to run scala code. Its time code now ☺.
 
 
-###Blog Series
+### Blog Series
 * [**Introduction to Scala**](/articles/introduction-to-scala/)
 * [**Installing Tools**](/blog/installing-tools/)
 * Hello Scala World
