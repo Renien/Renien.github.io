@@ -23,7 +23,7 @@ I will make sure to post the scientific research I did with some easy practical 
 
 Even my focus was changing in several times the interest that I had towards data has not been decreased. So lets learn something new this year to get a better understanding about the data. One of the interesting tools used by data scientists are [**R language**](https://www.r-project.org/){:target="_blank"}. R is a language and environment for statistical computing and graphics. Basically it will allow us to learn about the data/data pattern and to get some decision about the data by looking at the graphs.  
 
-###Learning Guide
+### Learning Guide
 
 
 <figure>
