@@ -16,7 +16,7 @@ Big data is very known words these days. It’s a broad term for data sets so la
 
 The most important benefits of visualization is,
 
-> Allows us to visual access to huge amount of data in easily digestible visual.
+> Allows us to visual access to the huge amount of data in an easily digestible visual.
 
 Recently I was in a situation to train a large set of tagged _**‘corpus’**_ for a retail domain. Building a corpus from scratch is not that very easy task unless if you didn’t find an easy way to expand the data set. In the journey of training a model or to get a better understanding of the data the data need to be visualized.
 
