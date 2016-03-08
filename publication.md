@@ -26,7 +26,7 @@ same scene obtained using a common camera; which can be used for interior and ex
 
 
 
-[**BUILD-IT - AN INTERACTIVE WEB APPLICATION FOR 3D CONSTRUCTION, INTERIOR & EXTERIOR DESIGN >>**](http://ijssst.info/Vol-15/No-3/start.pdf){:target="_blank"} 
+[**BUILD-IT - AN INTERACTIVE WEB APPLICATION FOR 3D CONSTRUCTION, INTERIOR & EXTERIOR DESIGN >>**](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?reload=true&arnumber=7280915){:target="_blank"} 
 
 <div class="publication-header-conference">Fifth International conference on Intelligent Systems, Modelling and Simulation (http://isms2014.info/) [IEEE]</div>
 <div>January 26, 2014</div>
