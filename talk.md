@@ -133,6 +133,47 @@ We had a good interactive and hands-on session in Big Data and Web Technologies.
 
 <div markdown="0" class="read-more-toggle" align="right"><a class="btn">v More</a></div>
 
+
+**Big Data Analytics**
+
+<div class="publication-header-conference">Talk @ Colombo IoT 5th MeetUP </div>
+<div>March 2016</div>
+
+<div markdown="1" class="read-more-content">
+<br>
+
+[**Colombo IoT, Sri Lanka**](http://www.meetup.com/colomboiot/){:target="_blank"} group organized Colombo IoT 5th MeetUP on March 10th, 2016. They invited me and my colleague [**Samith Sandanayake**](https://twitter.com/malhora){:target="_blank"} to talk on Big Data Analytics. It was a great opportunity to meet different people who are mainly focused to gather data using IoT platform. 
+
+At the end of our presentation we showed a few demos using the current trending big data analytic tools.
+
+<figure class="half">
+    {% for item in (1..3) %}
+    <a href="{{ site.url }}/images/talk/iot-meetup/{{ item }}.jpg">
+            <img src="{{ site.url }}/images/talk/iot-meetup/{{ item }}.jpg" alt="image">
+            </a>
+    {% endfor %}
+	<figcaption>During the session on 10th March 2016</figcaption>
+</figure> 
+</div>
+
+<div markdown="0" class="read-more-toggle" align="right"><a class="btn">v More</a></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <style type="text/css">
 .read-more-toggle .btn{
 	padding: 3px;
