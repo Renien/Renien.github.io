@@ -35,5 +35,5 @@ Even my focus was changing in several times the interest that I had towards data
 Last year I started to read this book and I totally loved it. The explanation and the guide they provided in **‘R Programming for Data Science’** by [**Roger D. Peng**](http://www.biostat.jhsph.edu/~rpeng/){:target="_blank"} is commendable. I will recommend this book for all the beginners to this language. He makes our life so easy ☺. Before delve into depth of R-Programming lets start with our mandatory Hello World program using R language in my next post on R language series. 
 
 * Introduction to R Language
-* [**Hello R World**](blog/hello-r-world/)
-* [**R Fundamentals**](blog/r-fundamentals/)
+* [**Hello R World**](/blog/hello-r-world/)
+* [**R Fundamentals**](/blog/r-fundamentals/)

@@ -68,6 +68,6 @@ hello <- "Hello R World varibale" # Assign a varible
 print(hello) # Print
 {% endhighlight %}
 
-* [**Introduction to R Language**](articles/introduction-to-r-language/)
+* [**Introduction to R Language**](/articles/introduction-to-r-language/)
 * Hello R World
-* [**R Fundamentals**](blog/r-fundamentals/)
+* [**R Fundamentals**](/blog/r-fundamentals/)

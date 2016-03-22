@@ -147,6 +147,6 @@ It's something similar to matrices but with different data objects in columns. T
 
 
 ### Blog Series
-* [**Introduction to R Language**](articles/introduction-to-r-language/)
-* [**Hello R World**](blog/hello-r-world/)
+* [**Introduction to R Language**](/articles/introduction-to-r-language/)
+* [**Hello R World**](/blog/hello-r-world/)
 * R Fundamentals
