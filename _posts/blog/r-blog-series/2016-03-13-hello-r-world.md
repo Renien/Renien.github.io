@@ -3,7 +3,7 @@ layout: post
 title: "Hello ‘R’ World"
 description: "Installing R tools and getting familiar with the tool"
 modified:
-categories: articles
+categories: blog
 excerpt:
 tags: [R Language,R Studio, R Tools]
 image:
@@ -68,3 +68,6 @@ hello <- "Hello R World varibale" # Assign a varible
 print(hello) # Print
 {% endhighlight %}
 
+* [**Introduction to R Language**](articles/introduction-to-r-language/)
+* Hello R World
+* [**R Fundamentals**](blog/r-fundamentals/)
