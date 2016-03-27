@@ -72,3 +72,4 @@ print(hello) # Print
 * [**Introduction to R Language**](/articles/introduction-to-r-language/)
 * Hello R World
 * [**R Fundamentals**](/blog/r-fundamentals/)
+* [**Read/Write Data into ‘R’ Language**](/blog/read-write-data/)

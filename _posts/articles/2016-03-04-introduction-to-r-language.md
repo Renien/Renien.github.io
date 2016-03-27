@@ -38,3 +38,4 @@ Last year I started to read this book and I totally loved it. The explanation an
 * Introduction to R Language
 * [**Hello R World**](/blog/hello-r-world/)
 * [**R Fundamentals**](/blog/r-fundamentals/)
+* [**Read/Write Data into ‘R’ Language**](/blog/read-write-data/)

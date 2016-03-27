@@ -8,7 +8,7 @@ excerpt:
 tags: [R Language,Data Types]
 image:
   feature:
-date: 2016-03-22T15:39:55-04:00
+date: 2016-03-27T15:39:55-04:00
 comments: true
 share: true
 ---
@@ -150,3 +150,4 @@ It's something similar to matrices but with different data objects in columns. T
 * [**Introduction to R Language**](/articles/introduction-to-r-language/)
 * [**Hello R World**](/blog/hello-r-world/)
 * R Fundamentals
+* [**Read/Write Data into ‘R’ Language**](/blog/read-write-data/)
