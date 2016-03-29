@@ -151,3 +151,4 @@ It's something similar to matrices but with different data objects in columns. T
 * [**Hello R World**](/blog/hello-r-world/)
 * R Fundamentals
 * [**Read/Write Data into ‘R’ Language**](/blog/read-write-data/)
+* [**Store data – Text/Binary Format**](/blog/store-data/)

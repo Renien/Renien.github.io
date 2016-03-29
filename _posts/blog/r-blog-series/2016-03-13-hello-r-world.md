@@ -73,3 +73,4 @@ print(hello) # Print
 * Hello R World
 * [**R Fundamentals**](/blog/r-fundamentals/)
 * [**Read/Write Data into ‘R’ Language**](/blog/read-write-data/)
+* [**Store data – Text/Binary Format**](/blog/store-data/)
