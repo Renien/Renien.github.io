@@ -107,3 +107,4 @@ save.image(file = ".RData", version = NULL, ascii = FALSE,
 * [**R Fundamentals**](/blog/r-fundamentals/)
 * [**Read/Write Data into ‘R’ Language**](/blog/read-write-data/)
 * Store data – Text/Binary Format
+* [**Manipulate Connections in ‘R’ Language**](/blog/connections/)

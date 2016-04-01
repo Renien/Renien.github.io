@@ -79,3 +79,4 @@ The read/write parameters are mostly straightforward. But if you need more detai
 * [**R Fundamentals**](/blog/r-fundamentals/)
 * Read/Write Data into ‘R’ Language
 * [**Store data – Text/Binary Format**](/blog/store-data/)
+* [Manipulate Connections in ‘R’ Language](/blog/connections/)

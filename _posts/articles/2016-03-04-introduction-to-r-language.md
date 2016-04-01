@@ -40,3 +40,4 @@ Last year I started to read this book and I totally loved it. The explanation an
 * [**R Fundamentals**](/blog/r-fundamentals/)
 * [**Read/Write Data into ‘R’ Language**](/blog/read-write-data/)
 * [**Store data – Text/Binary Format**](/blog/store-data/)
+* [**Manipulate Connections in ‘R’ Language**](/blog/connections/)
