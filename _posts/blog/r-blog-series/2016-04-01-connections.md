@@ -77,3 +77,4 @@ Once we open the compressed file using the connection interface we can use _read
 * [**Read/Write Data into ‘R’ Language**](/blog/read-write-data/)
 * [**Store data – Text/Binary Format**](/blog/store-data/)
 * Manipulate Connections in ‘R’ Language
+* [**Subsetting Data/R Objects**](/blog/subsetting/)

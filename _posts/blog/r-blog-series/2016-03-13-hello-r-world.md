@@ -75,3 +75,4 @@ print(hello) # Print
 * [**Read/Write Data into ‘R’ Language**](/blog/read-write-data/)
 * [**Store data – Text/Binary Format**](/blog/store-data/)
 * [**Manipulate Connections in ‘R’ Language**](/blog/connections/)
+* [**Subsetting Data/R Objects**](/blog/subsetting/)
