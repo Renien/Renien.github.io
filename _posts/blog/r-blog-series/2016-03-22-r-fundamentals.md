@@ -154,3 +154,4 @@ It's something similar to matrices but with different data objects in columns. T
 * [**Store data – Text/Binary Format**](/blog/store-data/)
 * [**Manipulate Connections in ‘R’ Language**](/blog/connections/)
 * [**Subsetting Data/R Objects**](/blog/subsetting/)
+* [**Control Structures**](/blog/control-strcuture/)

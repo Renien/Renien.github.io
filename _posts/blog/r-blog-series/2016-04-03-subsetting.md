@@ -174,3 +174,4 @@ It similar to matrix, we need using the indices of row and column.
 * [**Store data – Text/Binary Format**](/blog/store-data/)
 * [**Manipulate Connections in ‘R’ Language**](/blog/connections/)
 * Subsetting Data/R Objects
+* [**Control Structures**](/blog/control-strcuture/)

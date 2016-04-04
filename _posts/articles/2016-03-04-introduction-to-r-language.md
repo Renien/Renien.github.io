@@ -42,3 +42,4 @@ Last year I started to read this book and I totally loved it. The explanation an
 * [**Store data – Text/Binary Format**](/blog/store-data/)
 * [**Manipulate Connections in ‘R’ Language**](/blog/connections/)
 * [**Subsetting Data/R Objects**](/blog/subsetting/)
+* [**Control Structures**](/blog/control-strcuture/)

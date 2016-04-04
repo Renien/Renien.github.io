@@ -76,3 +76,4 @@ print(hello) # Print
 * [**Store data – Text/Binary Format**](/blog/store-data/)
 * [**Manipulate Connections in ‘R’ Language**](/blog/connections/)
 * [**Subsetting Data/R Objects**](/blog/subsetting/)
+* [**Control Structures**](/blog/control-strcuture/)
