@@ -108,7 +108,7 @@ A _for_ loop will help to iterate through iterable objects.
 {% highlight sh %}
 > c <- 0 ## Count 
 > while(c < 3){
-+   print(c) ## Iterate until in reach c=2
++   print(c) ## Iterate until it reach c=2
 +   c <- c + 1
 + }
 [1] 0
@@ -162,4 +162,3 @@ _next_ is used to skip an iteration of a loop.
 * [**Manipulate Connections in ‘R’ Language**](/blog/connections/)
 * [**Subsetting Data/R Objects**](/blog/subsetting/)
 * Control Structures
-* [**Control Structures**](/blog/control-strcuture/)
