@@ -81,3 +81,4 @@ The read/write parameters are mostly straightforward. But if you need more detai
 * [**Store data – Text/Binary Format**](/blog/store-data/)
 * [**Manipulate Connections in ‘R’ Language**](/blog/connections/)
 * [**Control Structures**](/blog/control-strcuture/)
+* [**Functions in R**](/blog/functions/)

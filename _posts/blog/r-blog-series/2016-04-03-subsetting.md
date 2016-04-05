@@ -175,3 +175,4 @@ It similar to matrix, we need using the indices of row and column.
 * [**Manipulate Connections in ‘R’ Language**](/blog/connections/)
 * Subsetting Data/R Objects
 * [**Control Structures**](/blog/control-strcuture/)
+* [**Functions in R**](/blog/functions/)

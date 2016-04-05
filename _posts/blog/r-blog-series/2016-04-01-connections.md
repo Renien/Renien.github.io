@@ -79,3 +79,4 @@ Once we open the compressed file using the connection interface we can use _read
 * Manipulate Connections in ‘R’ Language
 * [**Subsetting Data/R Objects**](/blog/subsetting/)
 * [**Control Structures**](/blog/control-strcuture/)
+* [**Functions in R**](/blog/functions/)

@@ -162,3 +162,4 @@ _next_ is used to skip an iteration of a loop.
 * [**Manipulate Connections in ‘R’ Language**](/blog/connections/)
 * [**Subsetting Data/R Objects**](/blog/subsetting/)
 * Control Structures
+* [**Functions in R**](/blog/functions/)

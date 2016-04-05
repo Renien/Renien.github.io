@@ -77,3 +77,4 @@ print(hello) # Print
 * [**Manipulate Connections in ‘R’ Language**](/blog/connections/)
 * [**Subsetting Data/R Objects**](/blog/subsetting/)
 * [**Control Structures**](/blog/control-strcuture/)
+* [**Functions in R**](/blog/functions/)

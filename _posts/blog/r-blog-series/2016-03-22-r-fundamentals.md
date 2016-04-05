@@ -155,3 +155,4 @@ It's something similar to matrices but with different data objects in columns. T
 * [**Manipulate Connections in ‘R’ Language**](/blog/connections/)
 * [**Subsetting Data/R Objects**](/blog/subsetting/)
 * [**Control Structures**](/blog/control-strcuture/)
+* [**Functions in R**](/blog/functions/)
