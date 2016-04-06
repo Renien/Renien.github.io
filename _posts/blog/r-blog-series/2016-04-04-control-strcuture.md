@@ -163,3 +163,4 @@ _next_ is used to skip an iteration of a loop.
 * [**Subsetting Data/R Objects**](/blog/subsetting/)
 * Control Structures
 * [**Functions in R**](/blog/functions/)
+* [**Scoping Rules of R**](/blog/scoping-rules/)

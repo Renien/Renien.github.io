@@ -176,3 +176,4 @@ It similar to matrix, we need using the indices of row and column.
 * Subsetting Data/R Objects
 * [**Control Structures**](/blog/control-strcuture/)
 * [**Functions in R**](/blog/functions/)
+* [**Scoping Rules of R**](/blog/scoping-rules/)

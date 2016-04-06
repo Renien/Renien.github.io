@@ -123,3 +123,4 @@ UseMethod("plot")
 * [**Subsetting Data/R Objects**](/blog/subsetting/)
 * [**Control Structures**](/blog/control-strcuture/)
 * Functions in R
+* [**Scoping Rules of R**](/blog/scoping-rules/)

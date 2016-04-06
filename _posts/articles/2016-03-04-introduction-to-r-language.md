@@ -44,3 +44,4 @@ Last year I started to read this book and I totally loved it. The explanation an
 * [**Subsetting Data/R Objects**](/blog/subsetting/)
 * [**Control Structures**](/blog/control-strcuture/)
 * [**Functions in R**](/blog/functions/)
+* [**Scoping Rules of R**](/blog/scoping-rules/)

@@ -111,3 +111,4 @@ save.image(file = ".RData", version = NULL, ascii = FALSE,
 * [**Subsetting Data/R Objects**](/blog/subsetting/)
 * [**Control Structures**](/blog/control-strcuture/)
 * [**Functions in R**](/blog/functions/)
+* [**Scoping Rules of R**](/blog/scoping-rules/)

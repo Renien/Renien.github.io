@@ -82,3 +82,4 @@ The read/write parameters are mostly straightforward. But if you need more detai
 * [**Manipulate Connections in ‘R’ Language**](/blog/connections/)
 * [**Control Structures**](/blog/control-strcuture/)
 * [**Functions in R**](/blog/functions/)
+* [**Scoping Rules of R**](/blog/scoping-rules/)

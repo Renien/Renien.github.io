@@ -80,3 +80,4 @@ Once we open the compressed file using the connection interface we can use _read
 * [**Subsetting Data/R Objects**](/blog/subsetting/)
 * [**Control Structures**](/blog/control-strcuture/)
 * [**Functions in R**](/blog/functions/)
+* [**Scoping Rules of R**](/blog/scoping-rules/)
