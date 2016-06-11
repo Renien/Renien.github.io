@@ -159,6 +159,29 @@ At the end of our presentation we showed a few demos using the current trending 
 <div markdown="0" class="read-more-toggle" align="right"><a class="btn">v More</a></div>
 
 
+**Making Technology A Living Thing — Zone24x7**
+
+<div class="publication-header-conference">Google I/O Extended Sri Lanka</div>
+<div>May 2016 </div>
+
+<div markdown="1" class="read-more-content">
+<br>
+
+On the 18th of May 2016 **Google I/O Extended Sri Lanka** took place in SLECC (Sri Lanka Exhibition and Convention Centre). This year much more excited because along with my colleagues [**Heshan**](https://lk.linkedin.com/in/heshan-perera-2b514229){:target="_blank"}, [**Thilina**](https://lk.linkedin.com/in/thilinayapabandara){:target="_blank"}, [**Dhanushka**](https://lk.linkedin.com/in/dhanushka-dolapihilla-549a9173){:target="_blank"} and [**Raathigeshan**](https://twitter.com/Raathigeshan){:target="_blank"} I represented Zone24x7 to talk about _**Make Sense**_. 
+
+<figure class="half">
+    {% for item in (1..4) %}
+    <a href="{{ site.url }}/images/talk/google-io-2016/{{ item }}.jpg">
+            <img src="{{ site.url }}/images/talk/google-io-2016/{{ item }}.jpg" alt="image">
+            </a>
+    {% endfor %}
+	<figcaption>During the session on 18th of May 2016</figcaption>
+</figure> 
+</div>
+
+<div markdown="0" class="read-more-toggle" align="right"><a class="btn">v More</a></div>
+
+
 
 
 
