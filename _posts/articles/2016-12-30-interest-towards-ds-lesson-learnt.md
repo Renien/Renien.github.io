@@ -27,7 +27,7 @@ Being in IT field there are numerous areas and opportunities to work. Honestly, 
 
 I always believe technology, should give us superpowers and the data is the soul of everything, so thought of let’s give it a try.
 
-It is still not an easy journey every day we learn new things from everywhere. But when I look back from mid 2015 up to now it surprises me that I didn’t know much stuff back in that time. Many people will have their own different goals. But I like to put it in different way,
+It is still not an easy journey, every day we learn new things from everywhere. But when I look back from mid 2015 up to now it surprises me that I didn’t know much stuff back in that time. Many people will have their own different goals. But I like to put it in different way,
 
 > Fix your goals as what you really like to do and “makes you happy”
 
