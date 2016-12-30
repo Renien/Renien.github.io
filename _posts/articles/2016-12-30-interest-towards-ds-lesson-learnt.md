@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Interest Towards Data Science and Lesson Learnt"
+title: "Interest Towards Data Science and Lessons Learnt"
 description: "Life is about growing and improving and getting better"
 modified:
 categories: articles
