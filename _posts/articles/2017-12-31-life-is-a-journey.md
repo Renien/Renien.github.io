@@ -23,7 +23,7 @@ Response,
 
 > “Hold on guys! Its Year end, I can take one more step to make another mistake and learn from it :P”
 
-Hey there, don’t worry this blog always will be about tech information and I just want to __share__ this years’ experience which I learned from 2016.
+Hey there, don’t worry this blog always will be about tech information and I just want to __share__ this years’ experience which I learned from 2017.
 
 
 <figure style="text-align: center;">
