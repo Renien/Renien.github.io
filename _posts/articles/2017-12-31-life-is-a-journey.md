@@ -32,7 +32,7 @@ Hey there, don’t worry this blog always will be about tech information and I j
     </figcaption>
 </figure>
 
-Most of us will always have great plans in the beginning of the year but after couple of month including me they will forget the plan and act based on reflection on your past days. It will become kind of feedback loop at the year-end you will realise all the mistakes and freak out.
+Most of us will always have great plans in the beginning of the year but after couple of months including me they will forget the plan and act based on reflection on your past days. It will become kind of feedback loop at the year-end and you will realise all the mistakes and freak out.
 
 <figure style="text-align: center;">
 	<a href="/articles/dont-kw-wht-life.png"><img src="/articles/dont-kw-wht-life.png" alt="image" ></a>
