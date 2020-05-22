@@ -13,7 +13,7 @@ image:
 
 My name is Renien John Joseph, mostly everyone call me Renien. I'm a programmer, who likes to meddle with new challenging technologies. I'm in the IT industry from the year 2009. In my family I'm well know as, the computer guy ;).
 
-Initially I had great passion towards only in Microsoft technologies. But when time passes, I realized for innovative developers technologies shouldn't be a barrier. I love to face very challenging problems and make sure to solve it with my magic powers :D.
+Initially I had great passion towards only in Microsoft technologies. But with time, I realized for innovative developers technologies shouldn't be a barrier. I love to face very challenging problems and make sure to solve it with my magic powers :D.
 
 I have a quite a good experience in Research and Development side. This site, its content and opinion are my own. I will cover the innovative solutions I found through the development process and also some of my R&D works and my opinions on it.
 
