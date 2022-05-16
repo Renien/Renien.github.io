@@ -24,7 +24,7 @@ If you think to become a good Software Engineer means being a good thinker. But 
 
 At a certain point, the things that get in the way help to improve problem solving skills. Basically when something is actually happening in our mind we should engage with the problem to find the root cause of it to fix it permanently.
 
-If I look at my journey my love toward solving problems is gradually extending more. I started as Desktop application developer; then moved to full stack developer and ended up settling down at big data and data science. I think probably you all might have guessed it based on my last two articles. 
+If I look at my journey my love toward solving problems is gradually expanding more. I started as Desktop application developer; then moved to full stack developer and ended up settling down at big data and data science. I think probably you all might have guessed it based on my last two articles. 
 
 > Yes!, SRE (DevOps) is becoming one of my interest areas for quite some time now.
 
