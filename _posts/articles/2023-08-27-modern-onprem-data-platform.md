@@ -19,7 +19,7 @@ An on-premises data warehouse refers to a data storage and management solution t
 In recent years, the trend has been shifting toward cloud-based data warehousing solutions due to their scalability, flexibility, and reduced upfront costs. However, on-premises data warehouses continue to be relevant for organizations with specific requirements around data control, security, compliance, and performance.  
 
 <figure style="text-align: center;">
-  <a href="/articles/data-privacy.png"><img src="/articles/data-privacy.png" alt="image" ></a>
+  <a href="/articles/data-privacy.png"><img src="/articles/data-privacy.png" alt="image" width="50%" height="50%"></a>
   <figcaption>Data Privacy</figcaption>
 </figure>
 
