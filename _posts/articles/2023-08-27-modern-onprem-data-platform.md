@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[Modern] On-prem Data Platform"
+title: "[Modern] On-Prem Data Platform"
 description: "[Modern] On-prem Data Platform"
 modified:
 categories: articles
