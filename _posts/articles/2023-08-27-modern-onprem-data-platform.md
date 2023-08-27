@@ -50,7 +50,7 @@ Since managing and querying big data on Hadoop can be challenging. We found alte
     <figcaption>Modern On-Prem DWH Solution</figcaption>
 </figure>
 
-So far the journey looks really great and moto on building [**Data Platform-in-a-Box**](articles/data-platform-in-a-box/) rolling out to be real and enjoying the performance and scalability on the k8 cluster.
+So far the journey looks really great and moto on building [**Data Platform-in-a-Box**](/articles/data-platform-in-a-box/) rolling out to be real and enjoying the performance and scalability on the k8 cluster.
 
 The current setup on on-prem data platform is somewhat equivalent to all cloud data platforms. One of the missing pieces in this blog is on masking policies and solutions. We have already solved it as well and in my next blog post I will explain about it. 
 
